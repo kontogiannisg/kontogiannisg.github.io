@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - kontogiannisg
 
 repo_description_lines_max: 2
 
+# TODO: Add your own repositories to feature, e.g.:
+# github_repos:
+#   - kontogiannisg/your-repo-name
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons

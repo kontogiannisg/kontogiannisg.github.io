@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 subtitle: >
   Ph.D. Candidate · <a href="https://www.ceid.upatras.gr/en" target="_blank">Dept. of Computer Engineering &amp; Informatics</a> ·
