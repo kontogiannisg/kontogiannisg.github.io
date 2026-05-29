@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
-nav_order: 3
-display_categories: [work, fun]
+description: Selected research projects spanning audio AI, medical imaging, and applied ML.
+nav: true
+nav_order: 5
+display_categories: [audio & respiratory ai, computer vision, other ml]
 horizontal: false
 ---
 

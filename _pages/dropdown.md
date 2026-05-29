@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
-nav: false
-nav_order: 8
+title: other
+nav: true
+nav_order: 6
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
+  - title: research statement
+    permalink: /research-statement
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: links/contact info
+    permalink: /links-contact
 ---
