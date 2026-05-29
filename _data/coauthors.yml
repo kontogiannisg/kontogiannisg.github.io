@@ -1,34 +1,33 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"tzamalis":
+  - firstname: ["Pantelis", "P."]
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"nikoletseas":
+  - firstname: ["Sotiris", "S."]
+    url: https://www.ceid.upatras.gr/en/nikoletseas
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"makris":
+  - firstname: ["Christos", "C."]
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"karamanidou":
+  - firstname: ["Theoni", "T."]
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"stavropoulos":
+  - firstname: ["Thanos G.", "Thanos", "T. G.", "T.G."]
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"kalogeropoulos":
+  - firstname: ["Nikolaos-Rafail", "N.-R.", "N.R."]
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"kapetanidis":
+  - firstname: ["Panagiotis", "P."]
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"kalioras":
+  - firstname: ["Fotios", "F."]
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"tsakonas":
+  - firstname: ["Christos", "C."]
+
+"velissaris":
+  - firstname: ["Dimitris", "D."]
+
+"manolopoulos":
+  - firstname: ["Christos", "C."]

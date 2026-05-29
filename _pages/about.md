@@ -2,33 +2,38 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  Ph.D. Candidate · <a href="https://www.ceid.upatras.gr/en" target="_blank">Dept. of Computer Engineering &amp; Informatics</a> ·
+  <a href="https://www.upatras.gr/en" target="_blank">University of Patras</a>
 
 profile:
   align: right
+  # TODO: Add profile photo — copy your photo to assets/img/prof_pic.jpg
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>N. Kazantzaki St., 26504</p>
+    <p>Rio, Patras, Greece</p>
+    <p><a href="mailto:g.kontogiannis@ac.upatras.gr">g.kontogiannis@ac.upatras.gr</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. Candidate in the <a href="https://www.ceid.upatras.gr/en" target="_blank">Department of Computer Engineering & Informatics</a> at the <a href="https://www.upatras.gr/en" target="_blank">University of Patras</a>, supervised by <a href="https://www.ceid.upatras.gr/en/nikoletseas" target="_blank">Prof. Sotiris Nikoletseas</a>. My research sits at the intersection of **audio AI**, **deep generative modeling**, and **edge-deployed machine learning**, with a focus on respiratory health diagnostics.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My work develops AI systems that turn everyday devices—smartphones, wearables—into clinical-grade diagnostic tools. This includes deep learning models for respiratory sound classification and cough detection, generative models for synthesizing clinically meaningful audio to address data scarcity, and robust, domain-aware architectures that generalize across patient populations and recording conditions. I am particularly interested in bridging the gap between laboratory benchmarks and real-world deployment constraints: models that are not only accurate, but explainable, robust, and runnable on-device.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Beyond my PhD, I work as a Research Scientist on the <a href="https://www.synairg.eu/" target="_blank">EU Horizon SynAir-G project</a> (Grant No. 101057271), investigating the synergistic effects of indoor air quality and physiological wearable signals on childhood health. I have also led and contributed to multiple externally funded <a href="https://www.pfizer.com/" target="_blank">Pfizer Collaborative Development Initiative (CDI)</a> contracts at the University of Patras, developing smartphone-based cough detection, asthma/COPD diagnostic systems, and computer vision pipelines for ocular biomarker analysis. Most recently, I am developing ML systems for logistics optimization under a research contract with <a href="https://www.cti.gr/en/" target="_blank">CTI Diophantus</a>.
+
+I am open to **post-doctoral opportunities**, **research collaborations** in audio/medical AI, and **industry research** roles in applied machine learning. Feel free to reach out.
