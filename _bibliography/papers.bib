@@ -2,7 +2,7 @@
 ---
 
 @article{kontogiannis2026cough,
-  author       = {Kontogiannis, Georgios and Tzamalis, Pantelis and Nikoletseas, Sotiris and Karamanidou, Theoni and Stavropoulos, Thanos G.},
+  author       = {Kontogiannis, Georgios and Tzamalis, Pantelis and Giannikopoulos, Anastases and Nikoletseas, Sotiris},
   title        = {On-device Cough Detection and Respiratory Disease Classification Enhanced by Generative Data Augmentation},
   journal      = {Computers in Biology and Medicine},
   year         = {2026},
@@ -10,7 +10,7 @@
   bibtex_show  = {true},
   selected     = {true},
   abbr         = {CBM},
-  abstract     = {We present an end-to-end on-device pipeline for cough detection and respiratory disease classification (asthma vs. COPD) from tracheal-acquired smartphone recordings. A deep generative model synthesizes clinically realistic cough and lung sounds to address training data scarcity, improving classifier robustness across recording conditions. The resulting models are quantized and deployed for real-time inference on commodity Android hardware.},
+  abstract     = {Cough sounds are accessible, non-invasive biomarkers for respiratory disease assessment capturable using consumer-grade smartphones. We develop a multilayer, smartphone-compatible AI framework for automated cough detection and respiratory disease classification, and propose a generative augmentation strategy utilizing five Variational Autoencoder variants with a probabilistic cough-level fusion mechanism to address training data scarcity. The framework comprises a Cough Detection Module for real-time segmentation, a Disease Analysis Module classifying asthma, COVID-19, or healthy coughs, and a Generative Augmentation Module operating across the time-frequency domain while reconstructing samples in the time-domain for acoustic verifiability. All components operate in real time on commodity Android hardware.},
 }
 
 @article{kalogeropoulos2025spectral,
@@ -22,7 +22,6 @@
   year         = {2025},
   bibtex_show  = {true},
   abbr         = {ESWA},
-  abstract     = {We extend the set-based information retrieval model to a graph-based formulation and improve retrieval quality through spectral clustering and embedding-driven query expansion. Experiments on standard benchmarks demonstrate consistent gains in precision and recall over baseline graph retrieval methods.},
 }
 
 @article{kapetanidis2024respiratory,
@@ -35,7 +34,6 @@
   year         = {2024},
   bibtex_show  = {true},
   abbr         = {Sensors},
-  abstract     = {This systematic review surveys the landscape of AI-driven respiratory disease diagnosis from audio signals, covering datasets, feature extraction approaches, deep learning architectures, and deployment considerations. We synthesize findings across 100+ studies to identify open challenges in data heterogeneity, model robustness, and clinical translation.},
 }
 
 @inproceedings{kontogiannis2026eusipco,
@@ -47,7 +45,8 @@
   bibtex_show  = {true},
   selected     = {true},
   abbr         = {EUSIPCO},
-  abstract     = {We propose a metadata-conditioned transformer architecture for respiratory sound classification that adapts its representations at inference time using patient-level clinical metadata (age, sex, BMI, recording device). Conditioning on metadata at the attention layer significantly improves classification of underrepresented patient subgroups without requiring separate models per subgroup.},
+  url          = {https://github.com/kontogiannisg/Metadata-Conditioned_Audio_Transformers},
+  abstract     = {Respiratory sound classification from auscultation recordings is confounded by heterogeneous acquisition conditions, including recording device, auscultation site, and patient characteristics, that introduce systematic variability unrelated to the underlying pathology. We propose a family of metadata-conditioning mechanisms for the Audio Spectrogram Transformer (AST), progressing from gated residual fusion to Feature-wise Linear Modulation (FiLM) adapted to the Transformer architecture, including two novel variants: Token-Aware FiLM (TAFiLM) and Soft-Factorized FiLM (SoftFiLM). Experiments on the ICBHI benchmark demonstrate consistent gains across all conditioning strategies. SoftFiLM achieves 64.11\% on the official 4-class task (+3.94\% over the baseline) and 72.40\% on the 2-class task, establishing a new state-of-the-art on the 2-class task.},
 }
 
 @inproceedings{kontogiannis2024dcoss,
@@ -59,18 +58,17 @@
   year         = {2024},
   bibtex_show  = {true},
   abbr         = {DCOSS},
-  abstract     = {We investigate the utility of GAN-generated synthetic IMU data for human gesture recognition. Through controlled experiments varying the proportion of real vs. synthetic samples, we characterize when synthetic augmentation helps, hurts, or is neutral, providing practical guidelines for practitioners working with small IoT sensor datasets.},
 }
 
 @article{kontogiannis2026jaundice,
-  author       = {Kontogiannis, Georgios and Tzamalis, Pantelis and Velissaris, Dimitris and Nikoletseas, Sotiris},
+  author       = {Kontogiannis, Georgios and Tzamalis, Pantelis and Velissaris, Dimitrios and Nikoletseas, Sotiris},
   title        = {{AI}-Based Jaundice Assessment from Ocular Images: A Structured Survey of Methods, Datasets, and Open Challenges},
   journal      = {Healthcare Informatics Research},
   year         = {2026},
   note         = {Under Review},
   bibtex_show  = {true},
   abbr         = {HIR},
-  abstract     = {We survey methods, datasets, and open challenges for non-invasive jaundice assessment from smartphone-captured ocular images. The review covers scleral segmentation pipelines, colorimetric analysis, and multi-modal approaches that integrate imaging with hematological biomarkers, identifying key gaps for clinical deployment.},
+  abstract     = {We provide the first systematic, PRISMA-guided survey of AI-based methods for non-invasive jaundice detection and bilirubin prediction from adult ocular images. Following PRISMA guidelines, 47 studies were included from 520 retrieved records. A five-axis taxonomy categorises studies by task type, AI methodology, sclera segmentation strategy, input acquisition and calibration, and deployment setting. The best-performing bilirubin regression systems achieved Pearson correlations of 0.89 and R\textsuperscript{2} of 0.956; state-of-the-art sclera segmentation reached F1-scores of 96.66\% and IoU of 93.59\%. Five critical gaps were identified: small datasets, absent standardised evaluation protocols, dominance of binary classification, disconnect between sclera segmentation and jaundice detection communities, and absence of prospective clinical validation.},
 }
 
 @article{kontogiannis2026stethoscope,
@@ -81,5 +79,4 @@
   note         = {Under Review},
   bibtex_show  = {true},
   abbr         = {JBHI},
-  abstract     = {We present a complete smartphone-based pipeline for distinguishing asthma from COPD using acoustic biomarkers extracted from tracheal lung sounds. The system integrates domain-adaptive feature extraction with an edge-optimized classifier, enabling real-time differential diagnosis without specialized hardware or clinical-grade microphones.},
 }
