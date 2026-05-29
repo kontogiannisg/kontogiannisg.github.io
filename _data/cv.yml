@@ -26,22 +26,31 @@ cv:
     countryCode: GR
 
   sections:
-    Research Interests:
+    Interests:
       - name: Audio AI & Respiratory Sound Analysis
         icon: fa-solid fa-stethoscope
-        keywords: "Digital signal processing, deep learning, cough and lung sound classification"
+        keywords:
+          - Digital signal processing
+          - deep learning
+          - cough and lung sound classification
 
       - name: Deep Generative Modeling
         icon: fa-solid fa-wave-square
-        keywords: "Synthesizing clinically meaningful medical audio for data augmentation and robustness"
+        keywords:
+          - Synthesizing clinically meaningful medical audio
+          - data augmentation and robustness
 
       - name: Robust & Deployment-Aware ML
         icon: fa-solid fa-shield-halved
-        keywords: "Domain shift, dataset heterogeneity, edge deployment, trustworthy machine learning in real-world healthcare systems"
+        keywords:
+          - Domain shift and dataset heterogeneity
+          - edge deployment
+          - trustworthy ML in real-world healthcare systems
 
       - name: Graph-Based Information Retrieval
         icon: fa-solid fa-diagram-project
-        keywords: "Graph-based retrieval models enhanced by machine and deep learning techniques"
+        keywords:
+          - Graph-based retrieval models enhanced by machine and deep learning
 
     Education:
       - institution: University of Patras
@@ -67,7 +76,7 @@ cv:
           - "Supervisor: Prof. Christos Makris"
           - "Thesis: A Study on Improvement of Graph-based Information Retrieval Models through Machine and Deep Learning Techniques"
 
-    Research Experience:
+    Experience:
       - company: CTI Diophantus
         position: ML Researcher — EN (POLLA) PLO Project
         location: Patras, Greece
@@ -135,65 +144,22 @@ cv:
           - "Clinical collaborator: Prof. Dr. Dimitris Velissaris"
 
     Teaching:
-      - company: University of Patras, Dept. of Computer Engineering & Informatics
-        position: Guest Lecturer — AI Algorithms and Applications for IoT
-        location: Rio, Greece
-        start_date: 2026-01-01
-        end_date: 2026-06-01
-        highlights:
-          - "Course coordinator: Prof. Sotiris Nikoletseas"
-          - Designed and delivered a six-lecture applied ML module for IoT time-series data; all materials developed from scratch including LaTeX slide decks, Python demos, and a graded end-to-end project on the PAMAP2 activity recognition dataset.
-
-      - company: University of Patras, Dept. of Computer Engineering & Informatics
-        position: Lab Instructor — Analog Electronics Laboratory
-        location: Rio, Greece
-        start_date: 2021-09-01
-        end_date: 2022-01-01
-        highlights:
-          - "Supervisor: Dr. Georgios Oikonomou"
-
-      - company: University of Patras, Dept. of Computer Engineering & Informatics
-        position: Lab Instructor — Digital Electronics Laboratory
-        location: Rio, Greece
-        start_date: 2022-02-01
-        end_date: 2022-06-01
-        highlights:
-          - "Supervisor: Dr. Georgios Oikonomou"
+      - bullet: "**Guest Lecturer — AI Algorithms and Applications for IoT** (Spring 2026). University of Patras, Dept. of Computer Engineering & Informatics; course coordinator Prof. Sotiris Nikoletseas. Designed and delivered a six-lecture applied ML module for IoT time-series data, developing all materials from scratch: LaTeX slide decks, Python demos, and a graded end-to-end project on the PAMAP2 activity recognition dataset."
+      - bullet: "**Lab Instructor — Analog Electronics Laboratory** (Sep 2021 – Jan 2022). University of Patras; supervisor Dr. Georgios Oikonomou. Guided undergraduates through hands-on analog circuit experiments, theory sessions, and result analysis."
+      - bullet: "**Lab Instructor — Digital Electronics Laboratory** (Feb – Jun 2022). University of Patras; supervisor Dr. Georgios Oikonomou. Guided undergraduates through hands-on digital circuit experiments, theory sessions, and result analysis."
 
     Grant Writing:
-      - company: Pfizer CDI — Voice-Based Diagnostics (VBD-2)
-        position: Proposal Contributor
-        start_date: 2023-01-01
-        end_date: 2023-12-31
-        highlights:
-          - Critically contributed to the research proposal (methodology, technical approach, and preliminary data) that secured the externally funded CDI contract with the University of Patras for smartphone-based respiratory disease monitoring.
-
-      - company: Pfizer CDI — EyeAI Research Project
-        position: Proposal Contributor
-        start_date: 2024-01-01
-        end_date: 2024-12-31
-        highlights:
-          - Critically contributed to the research proposal that secured the CDI contract for ocular biomarker analysis through computer vision methods, including system design and edge deployment strategy.
+      - bullet: "**Pfizer CDI — Voice-Based Diagnostics (VBD-2)** (2023). Critically contributed to the research proposal (methodology, technical approach, and preliminary data) that secured the externally funded CDI contract with the University of Patras for smartphone-based respiratory disease monitoring."
+      - bullet: "**Pfizer CDI — EyeAI Research Project** (2024). Critically contributed to the research proposal that secured the CDI contract for ocular biomarker analysis through computer vision methods, including system design and edge deployment strategy."
 
     Talks & Presentations:
-      - title: "Metadata-Conditioned Audio Transformers for Adaptive Respiratory Sound Classification"
-        date: 2026
-        awarder: EUSIPCO 2026
-        summary: "G. Kontogiannis, P. Tzamalis, S. Nikoletseas."
-
-      - title: "Exploring the Impact of Synthetic Data on Human Gesture Recognition Tasks Using GANs"
-        date: 2024
-        awarder: DCOSS-IoT 2024
-        summary: "G. Kontogiannis, P. Tzamalis, S. Nikoletseas."
+      - bullet: '**EUSIPCO 2026** — "Metadata-Conditioned Audio Transformers for Adaptive Respiratory Sound Classification." G. Kontogiannis, P. Tzamalis, S. Nikoletseas.'
+      - bullet: '**DCOSS-IoT 2024** — "Exploring the Impact of Synthetic Data on Human Gesture Recognition Tasks Using GANs." G. Kontogiannis, P. Tzamalis, S. Nikoletseas.'
 
     Mentorship:
-      - company: University of Patras
-        position: MSc Thesis Advising
-        location: Rio, Greece
-        highlights:
-          - "Alexandros Vallatos, MSc — Causal Artificial Intelligence in IoT Health Data"
-          - "Miltiadis Mades, MSc — Supervised Domain Adaptation Techniques for Classifying Pathological Respiratory Sounds"
-          - "Chrisavgi Pateli, MSc — Methods and Techniques for the Automatic Detection and Segmentation of the Respiratory Cycle from Lung Sound Signals"
+      - bullet: "**Alexandros Vallatos, MSc** — *Causal Artificial Intelligence in IoT Health Data*."
+      - bullet: "**Miltiadis Mades, MSc** — *Supervised Domain Adaptation Techniques for Classifying Pathological Respiratory Sounds*."
+      - bullet: "**Chrisavgi Pateli, MSc** — *Methods and Techniques for the Automatic Detection and Segmentation of the Respiratory Cycle from Lung Sound Signals*."
 
     Awards:
       - title: University of Patras PhD Research Scholarship
@@ -238,16 +204,5 @@ cv:
         summary: "Proficient (Michigan ECPE)"
 
     Service:
-      - company: IEEE Transactions on Biomedical Engineering (TBME)
-        position: Peer Reviewer
-        start_date: 2025-01-01
-        end_date: present
-
-      - company: IoT Laboratory, Dept. of CEID, University of Patras
-        position: Server Manager
-        location: Rio, Greece
-        start_date: 2023-01-01
-        end_date: present
-        highlights:
-          - Deployed and maintain containerized MLflow tracking server with PostgreSQL and MinIO backends using Docker Compose, exposed via Nginx reverse proxy.
-          - Linux server administration; hosted backend services for multiple IoT Laboratory web platforms.
+      - bullet: "**Reviewer**, IEEE Transactions on Biomedical Engineering (TBME), 2025."
+      - bullet: "**Server Manager — IoT Laboratory, Dept. of CEID, University of Patras** (2023 – present). Deployed and maintain the lab's ML experimentation infrastructure: containerized MLflow tracking server with PostgreSQL and MinIO backends via Docker Compose, exposed through an Nginx reverse proxy; Linux server administration and backend hosting for multiple IoT Laboratory web platforms."
