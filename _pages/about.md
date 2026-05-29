@@ -10,7 +10,7 @@ profile:
   align: right
   # TODO: Add profile photo — copy your photo to assets/img/prof_pic.jpg
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
   more_info: >
     <p>N. Kazantzaki St., 26504</p>
     <p>Rio, Patras, Greece</p>
