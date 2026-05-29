@@ -1,14 +1,8 @@
 name: Render a CV
+# Auto-PDF generation is disabled: the CV download button uses a custom LaTeX
+# PDF (assets/pdf/cv.pdf), and _data/cv.yml uses the al-folio display schema
+# rather than strict RenderCV input. Run manually only if needed.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
   workflow_call:
   workflow_dispatch:
 permissions:

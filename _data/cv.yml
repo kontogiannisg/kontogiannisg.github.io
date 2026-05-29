@@ -13,9 +13,10 @@ cv:
   social_networks:
     - network: GitHub
       username: kontogiannisg
-    # - network: LinkedIn
-    #   username: TODO — add your LinkedIn handle
-    # ORCID: add when available
+    - network: LinkedIn
+      username: george-kontogiannis
+    - network: ORCID
+      username: 0009-0003-7982-0991
 
   address:
     street: N. Kazantzaki St.
@@ -25,6 +26,23 @@ cv:
     countryCode: GR
 
   sections:
+    Research Interests:
+      - name: Audio AI & Respiratory Sound Analysis
+        icon: fa-solid fa-stethoscope
+        keywords: "Digital signal processing, deep learning, cough and lung sound classification"
+
+      - name: Deep Generative Modeling
+        icon: fa-solid fa-wave-square
+        keywords: "Synthesizing clinically meaningful medical audio for data augmentation and robustness"
+
+      - name: Robust & Deployment-Aware ML
+        icon: fa-solid fa-shield-halved
+        keywords: "Domain shift, dataset heterogeneity, edge deployment, trustworthy machine learning in real-world healthcare systems"
+
+      - name: Graph-Based Information Retrieval
+        icon: fa-solid fa-diagram-project
+        keywords: "Graph-based retrieval models enhanced by machine and deep learning techniques"
+
     Education:
       - institution: University of Patras
         location: Rio, Greece
@@ -141,6 +159,41 @@ cv:
         end_date: 2022-06-01
         highlights:
           - "Supervisor: Dr. Georgios Oikonomou"
+
+    Grant Writing:
+      - company: Pfizer CDI — Voice-Based Diagnostics (VBD-2)
+        position: Proposal Contributor
+        start_date: 2023-01-01
+        end_date: 2023-12-31
+        highlights:
+          - Critically contributed to the research proposal (methodology, technical approach, and preliminary data) that secured the externally funded CDI contract with the University of Patras for smartphone-based respiratory disease monitoring.
+
+      - company: Pfizer CDI — EyeAI Research Project
+        position: Proposal Contributor
+        start_date: 2024-01-01
+        end_date: 2024-12-31
+        highlights:
+          - Critically contributed to the research proposal that secured the CDI contract for ocular biomarker analysis through computer vision methods, including system design and edge deployment strategy.
+
+    Talks & Presentations:
+      - title: "Metadata-Conditioned Audio Transformers for Adaptive Respiratory Sound Classification"
+        date: 2026
+        awarder: EUSIPCO 2026
+        summary: "G. Kontogiannis, P. Tzamalis, S. Nikoletseas."
+
+      - title: "Exploring the Impact of Synthetic Data on Human Gesture Recognition Tasks Using GANs"
+        date: 2024
+        awarder: DCOSS-IoT 2024
+        summary: "G. Kontogiannis, P. Tzamalis, S. Nikoletseas."
+
+    Mentorship:
+      - company: University of Patras
+        position: MSc Thesis Advising
+        location: Rio, Greece
+        highlights:
+          - "Alexandros Vallatos, MSc — Causal Artificial Intelligence in IoT Health Data"
+          - "Miltiadis Mades, MSc — Supervised Domain Adaptation Techniques for Classifying Pathological Respiratory Sounds"
+          - "Chrisavgi Pateli, MSc — Methods and Techniques for the Automatic Detection and Segmentation of the Respiratory Cycle from Lung Sound Signals"
 
     Awards:
       - title: University of Patras PhD Research Scholarship
