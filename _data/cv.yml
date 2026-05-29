@@ -61,7 +61,7 @@ cv:
         start_date: 2023-09-01
         end_date: present
         highlights:
-          - "Supervisor: Prof. Sotiris Nikoletseas"
+          - "Advisor: [Prof. Sotiris Nikoletseas](https://www.cti.gr/RD1/nikole/index.html)"
           - "Focus: audio AI for respiratory/cough sound analysis, multimodal AI modeling, deep generative modeling for medical audio, robust and patient-centric diagnostic pipelines for edge-deployed clinical applications"
 
       - institution: University of Patras
@@ -73,7 +73,7 @@ cv:
         end_date: 2023-07-01
         score: "7.81/10 (Very Good)"
         highlights:
-          - "Supervisor: Prof. Christos Makris"
+          - "Advisor: Prof. Christos Makris"
           - "Thesis: A Study on Improvement of Graph-based Information Retrieval Models through Machine and Deep Learning Techniques"
 
     Experience:

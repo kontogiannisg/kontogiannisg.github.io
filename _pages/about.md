@@ -30,6 +30,6 @@ latest_posts:
   limit: 3
 ---
 
-I am a Ph.D. Candidate in the <a href="https://www.ceid.upatras.gr/en" target="_blank">Department of Computer Engineering & Informatics</a> at the <a href="https://www.upatras.gr/en" target="_blank">University of Patras</a>, supervised by <a href="https://www.ceid.upatras.gr/en/nikoletseas" target="_blank">Prof. Sotiris Nikoletseas</a>. I work on **audio AI**, **deep generative modeling**, and **edge-deployed machine learning** for respiratory health diagnostics—turning everyday smartphones and wearables into reliable, clinical-grade diagnostic tools.
+I am a Ph.D. Candidate in the <a href="https://www.ceid.upatras.gr/en" target="_blank">Department of Computer Engineering & Informatics</a> at the <a href="https://www.upatras.gr/en" target="_blank">University of Patras</a>, advised by <a href="https://www.cti.gr/RD1/nikole/index.html" target="_blank">Prof. Sotiris Nikoletseas</a>. I work on **audio AI**, **deep generative modeling**, and **edge-deployed machine learning** for respiratory health diagnostics—turning everyday smartphones and wearables into reliable, clinical-grade diagnostic tools.
 
 See my [research statement](/research-statement) for details, my [projects](/projects/) for selected work, and [links/contact info](/links-contact) to get in touch. I am open to post-doctoral, collaboration, and industry research opportunities.
