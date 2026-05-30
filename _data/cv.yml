@@ -1,14 +1,13 @@
 cv:
   name: Georgios (George) Kontogiannis
   label: PhD Candidate
-  email: g.kontogiannis@ac.upatras.gr
-  location: Rio, Patras, Greece
+  email: g [dot] kontogiannis [at] ac [dot] upatras [dot] gr # g.kontogiannis@ac.upatras.gr
+  location: Patras, Greece
   image: ""
-  summary: >
-    PhD Candidate at the Department of Computer Engineering & Informatics,
-    University of Patras, working on audio AI, deep generative modeling, and
-    edge-deployed ML systems for respiratory health diagnostics. Research Scientist
-    on the EU Horizon SynAir-G project and multiple Pfizer CDI industry contracts.
+  # summary: >
+  #   PhD Candidate at the Department of Computer Engineering & Informatics,
+  #   University of Patras, working on audio AI, deep generative modeling, and
+  #   edge-deployed ML systems for respiratory health diagnostics.
 
   social_networks:
     - network: GitHub
@@ -19,7 +18,7 @@ cv:
       username: 0009-0003-7982-0991
 
   address:
-    street: N. Kazantzaki St.
+    street: 25th Martiou 7
     city: Rio
     region: Patras
     postalCode: "26504"
@@ -31,8 +30,9 @@ cv:
         icon: fa-solid fa-stethoscope
         keywords:
           - Digital signal processing
+          - audio content analysis
           - deep learning
-          - cough and lung sound classification
+          - cough and lung sound analysis
 
       - name: Deep Generative Modeling
         icon: fa-solid fa-wave-square
