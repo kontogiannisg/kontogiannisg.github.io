@@ -4,10 +4,7 @@ cv:
   email: g [dot] kontogiannis [at] ac [dot] upatras [dot] gr # g.kontogiannis@ac.upatras.gr
   location: Patras, Greece
   image: ""
-  # summary: >
-  #   PhD Candidate at the Department of Computer Engineering & Informatics,
-  #   University of Patras, working on audio AI, deep generative modeling, and
-  #   edge-deployed ML systems for respiratory health diagnostics.
+  summary: I am primarily interested in developing multimodal machine learning algorithms for health diagnostics. I am also interested in representation learning.
 
   social_networks:
     - network: GitHub
@@ -167,10 +164,10 @@ cv:
         awarder: University of Patras
         summary: Competitive scholarship awarded for PhD research in Computer Engineering & Informatics (2023–2025).
 
-    Skills:
+    Software & tools:
       - name: Machine Learning & Deep Learning
         icon: fa-solid fa-brain
-        keywords: "PyTorch, TensorFlow, Scikit-Learn, Hugging Face Transformers, TensorFlow Lite, ONNX, MLflow, Weights & Biases"
+        keywords: "PyTorch, TensorFlow, Ajax, Scikit-Learn, Hugging Face Transformers, TensorFlow Lite, ONNX, MLflow, Weights & Biases"
 
       - name: Signal Processing & Computer Vision
         icon: fa-solid fa-wave-square
