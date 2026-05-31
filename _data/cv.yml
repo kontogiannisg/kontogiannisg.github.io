@@ -145,18 +145,18 @@ cv:
       - bullet: "**Lab Instructor — Analog Electronics Laboratory** (Sep 2021 – Jan 2022). University of Patras; supervisor Dr. Georgios Oikonomou. Guided undergraduates through hands-on analog circuit experiments, theory sessions, and result analysis."
       - bullet: "**Lab Instructor — Digital Electronics Laboratory** (Feb – Jun 2022). University of Patras; supervisor Dr. Georgios Oikonomou. Guided undergraduates through hands-on digital circuit experiments, theory sessions, and result analysis."
 
-    Grant Writing:
-      - bullet: "**Pfizer CDI — Voice-Based Diagnostics (VBD-2)** (2023). Critically contributed to the research proposal (methodology, technical approach, and preliminary data) that secured the externally funded CDI contract with the University of Patras for smartphone-based respiratory disease monitoring."
-      - bullet: "**Pfizer CDI — EyeAI Research Project** (2024). Critically contributed to the research proposal that secured the CDI contract for ocular biomarker analysis through computer vision methods, including system design and edge deployment strategy."
+    # Grant Writing:
+    #   - bullet: "**Pfizer CDI — Voice-Based Diagnostics (VBD-2)** (2023). Critically contributed to the research proposal (methodology, technical approach, and preliminary data) that secured the externally funded CDI contract with the University of Patras for smartphone-based respiratory disease monitoring."
+    #   - bullet: "**Pfizer CDI — EyeAI Research Project** (2024). Critically contributed to the research proposal that secured the CDI contract for ocular biomarker analysis through computer vision methods, including system design and edge deployment strategy."
 
     Talks & Presentations:
       - bullet: '**EUSIPCO 2026** — "Metadata-Conditioned Audio Transformers for Adaptive Respiratory Sound Classification." G. Kontogiannis, P. Tzamalis, S. Nikoletseas.'
       - bullet: '**DCOSS-IoT 2024** — "Exploring the Impact of Synthetic Data on Human Gesture Recognition Tasks Using GANs." G. Kontogiannis, P. Tzamalis, S. Nikoletseas.'
 
-    Mentorship:
-      - bullet: "**Alexandros Vallatos, MSc** — *Causal Artificial Intelligence in IoT Health Data*."
-      - bullet: "**Miltiadis Mades, MSc** — *Supervised Domain Adaptation Techniques for Classifying Pathological Respiratory Sounds*."
-      - bullet: "**Chrisavgi Pateli, MSc** — *Methods and Techniques for the Automatic Detection and Segmentation of the Respiratory Cycle from Lung Sound Signals*."
+    # Mentorship:
+    #   - bullet: "**Alexandros Vallatos, MSc** — *Causal Artificial Intelligence in IoT Health Data*."
+    #   - bullet: "**Miltiadis Mades, MSc** — *Supervised Domain Adaptation Techniques for Classifying Pathological Respiratory Sounds*."
+    #   - bullet: "**Chrisavgi Pateli, MSc** — *Methods and Techniques for the Automatic Detection and Segmentation of the Respiratory Cycle from Lung Sound Signals*."
 
     Awards:
       - title: University of Patras PhD Research Scholarship
@@ -165,33 +165,20 @@ cv:
         summary: Competitive scholarship awarded for PhD research in Computer Engineering & Informatics (2023–2025).
 
     Software & tools:
-      - name: Machine Learning & Deep Learning
-        icon: fa-solid fa-brain
-        keywords: "PyTorch, TensorFlow, Ajax, Scikit-Learn, Hugging Face Transformers, TensorFlow Lite, ONNX, MLflow, Weights & Biases"
-
-      - name: Signal Processing & Computer Vision
-        icon: fa-solid fa-wave-square
-        keywords: "librosa, OpenCV, NumPy, SciPy, Pandas, Matplotlib, Seaborn"
-
-      - name: Programming & Scripting
-        icon: fa-solid fa-code
-        keywords: "Python, Java, C, C++, MATLAB, Bash"
-
-      - name: DevOps & Infrastructure
-        icon: fa-solid fa-server
-        keywords: "Docker, Docker Compose, Nginx, Systemd, Linux Server Administration"
-
-      - name: Mobile Development
-        icon: fa-solid fa-mobile
-        keywords: "Flutter, Android SDK"
-
-      - name: Databases & Storage
-        icon: fa-solid fa-database
-        keywords: "MySQL, PostgreSQL, Cassandra, MongoDB, Elasticsearch, MinIO"
-
-      - name: Development Tools
-        icon: fa-solid fa-tools
-        keywords: "LaTeX, Git, GitHub, Atlassian Suite"
+      - label: Machine Learning & Deep Learning
+        details: "PyTorch, TensorFlow, Ajax, Scikit-Learn, Hugging Face Transformers, TensorFlow Lite, ONNX, MLflow, Weights & Biases"
+      - label: Signal Processing & Computer Vision
+        details: "librosa, OpenCV, NumPy, SciPy, Pandas, Matplotlib, Seaborn"
+      - label: Programming & Scripting
+        details: "Python, Java, C, C++, MATLAB, Bash"
+      - label: DevOps & Infrastructure
+        details: "Docker, Docker Compose, Nginx, Systemd, Linux Server Administration"
+      - label: Mobile Development
+        details: "Flutter, Android SDK"
+      - label: Databases & Storage
+        details: "MySQL, PostgreSQL, Cassandra, MongoDB, Elasticsearch, MinIO"
+      - label: Development Tools
+        details: "LaTeX, Git, GitHub, Atlassian Suite"
 
     Languages:
       - name: Greek
@@ -200,6 +187,6 @@ cv:
       - name: English
         summary: "Proficient (Michigan ECPE)"
 
-    Service:
-      - bullet: "**Reviewer**, IEEE Transactions on Biomedical Engineering (TBME), 2025."
-      - bullet: "**Server Manager — IoT Laboratory, Dept. of CEID, University of Patras** (2023 – present). Deployed and maintain the lab's ML experimentation infrastructure: containerized MLflow tracking server with PostgreSQL and MinIO backends via Docker Compose, exposed through an Nginx reverse proxy; Linux server administration and backend hosting for multiple IoT Laboratory web platforms."
+    # Service:
+    #   - bullet: "**Reviewer**, IEEE Transactions on Biomedical Engineering (TBME), 2025."
+    #   - bullet: "**Server Manager — IoT Laboratory, Dept. of CEID, University of Patras** (2023 – present). Deployed and maintain the lab's ML experimentation infrastructure: containerized MLflow tracking server with PostgreSQL and MinIO backends via Docker Compose, exposed through an Nginx reverse proxy; Linux server administration and backend hosting for multiple IoT Laboratory web platforms."
