@@ -164,21 +164,34 @@ cv:
         awarder: University of Patras
         summary: Competitive scholarship awarded for PhD research in Computer Engineering & Informatics (2023–2025).
 
-    Software & tools:
-      - label: '<i class="fa-solid fa-brain"></i> Machine Learning & Deep Learning'
-        details: "PyTorch, TensorFlow, Ajax, Scikit-Learn, Hugging Face Transformers, TensorFlow Lite, ONNX, MLflow, Weights & Biases"
-      - label: '<i class="fa-solid fa-wave-square"></i> Signal Processing & Computer Vision'
-        details: "librosa, OpenCV, NumPy, SciPy, Pandas, Matplotlib, Seaborn"
-      - label: '<i class="fa-solid fa-code"></i> Programming & Scripting'
-        details: "Python, Java, C, C++, MATLAB, Bash"
-      - label: '<i class="fa-solid fa-server"></i> DevOps & Infrastructure'
-        details: "Docker, Docker Compose, Nginx, Systemd, Linux Server Administration"
-      - label: '<i class="fa-solid fa-mobile-screen"></i> Mobile Development'
-        details: "Flutter, Android SDK"
-      - label: '<i class="fa-solid fa-database"></i> Databases & Storage'
-        details: "MySQL, PostgreSQL, Cassandra, MongoDB, Elasticsearch, MinIO"
-      - label: '<i class="fa-solid fa-screwdriver-wrench"></i> Development Tools'
-        details: "LaTeX, Git, GitHub, Atlassian Suite"
+    Skills:
+      - name: Machine Learning & Deep Learning
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow, Ajax, Scikit-Learn, Hugging Face Transformers, TensorFlow Lite, ONNX, MLflow, Weights & Biases"
+
+      - name: Signal Processing & Computer Vision
+        icon: fa-solid fa-wave-square
+        keywords: "librosa, OpenCV, NumPy, SciPy, Pandas, Matplotlib, Seaborn"
+
+      - name: Programming & Scripting
+        icon: fa-solid fa-code
+        keywords: "Python, Java, C, C++, MATLAB, Bash"
+
+      - name: DevOps & Infrastructure
+        icon: fa-solid fa-server
+        keywords: "Docker, Docker Compose, Nginx, Systemd, Linux Server Administration"
+
+      - name: Mobile Development
+        icon: fa-solid fa-mobile-screen
+        keywords: "Flutter, Android SDK"
+
+      - name: Databases & Storage
+        icon: fa-solid fa-database
+        keywords: "MySQL, PostgreSQL, Cassandra, MongoDB, Elasticsearch, MinIO"
+
+      - name: Development Tools
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "LaTeX, Git, GitHub, Atlassian Suite"
 
     Languages:
       - name: Greek
