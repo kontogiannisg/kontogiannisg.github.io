@@ -165,19 +165,19 @@ cv:
         summary: Competitive scholarship awarded for PhD research in Computer Engineering & Informatics (2023–2025).
 
     Software & tools:
-      - label: Machine Learning & Deep Learning
+      - label: '<i class="fa-solid fa-brain"></i> Machine Learning & Deep Learning'
         details: "PyTorch, TensorFlow, Ajax, Scikit-Learn, Hugging Face Transformers, TensorFlow Lite, ONNX, MLflow, Weights & Biases"
-      - label: Signal Processing & Computer Vision
+      - label: '<i class="fa-solid fa-wave-square"></i> Signal Processing & Computer Vision'
         details: "librosa, OpenCV, NumPy, SciPy, Pandas, Matplotlib, Seaborn"
-      - label: Programming & Scripting
+      - label: '<i class="fa-solid fa-code"></i> Programming & Scripting'
         details: "Python, Java, C, C++, MATLAB, Bash"
-      - label: DevOps & Infrastructure
+      - label: '<i class="fa-solid fa-server"></i> DevOps & Infrastructure'
         details: "Docker, Docker Compose, Nginx, Systemd, Linux Server Administration"
-      - label: Mobile Development
+      - label: '<i class="fa-solid fa-mobile-screen"></i> Mobile Development'
         details: "Flutter, Android SDK"
-      - label: Databases & Storage
+      - label: '<i class="fa-solid fa-database"></i> Databases & Storage'
         details: "MySQL, PostgreSQL, Cassandra, MongoDB, Elasticsearch, MinIO"
-      - label: Development Tools
+      - label: '<i class="fa-solid fa-screwdriver-wrench"></i> Development Tools'
         details: "LaTeX, Git, GitHub, Atlassian Suite"
 
     Languages:
