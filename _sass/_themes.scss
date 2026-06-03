@@ -326,3 +326,20 @@ html[data-theme="dark"] .profile .social .contact-icons .fa-github {
   background: #fff;
   border-radius: 6px;
 }
+
+/* The generic `table:not(.table) td/th` rule adds a top border to every cell,
+   which draws unwanted lines above the date / location / logo in the CV's
+   left column. Drop those per-cell lines. */
+.date-column .table-cv td,
+.date-column .table-cv th {
+  border-top: 0;
+}
+
+/* Separate CV entries with a single light horizontal line between them
+   (al-folio only sets the list-group border-colour, not its width). */
+.cv .card .list-group-flush > .list-group-item {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+.cv .card .list-group-flush > .list-group-item:last-child {
+  border-bottom: 0;
+}
