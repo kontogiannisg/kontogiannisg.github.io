@@ -14,12 +14,12 @@ cv:
     - network: ORCID
       username: 0009-0003-7982-0991
 
-  address:
-    street: 25th Martiou 7
-    city: Rio
-    region: Patras
-    postalCode: "26504"
-    countryCode: GR
+  # address:
+  #   street: 25th Martiou 7
+  #   city: Rio
+  #   region: Patras
+  #   postalCode: "26504"
+  #   countryCode: GR
 
   sections:
     Interests:
