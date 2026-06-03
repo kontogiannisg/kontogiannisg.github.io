@@ -105,8 +105,10 @@ cv:
         start_date: 2024-01-01
         end_date: 2025-10-01
         highlights:
-          - Externally funded Pfizer CDI contract awarded to University of Patras after competitive proposal.
-          - Dataset curation, annotation, and quality control for ocular imaging; computer vision models for automatic sclera segmentation from smartphone-captured eye images; edge-deployed AI pipelines for on-device inference.
+          # - Externally funded Pfizer CDI contract awarded to University of Patras after competitive proposal.
+          - Dataset curation, annotation, and quality control for ocular imaging.
+          - Development of computer vision models for automatic sclera segmentation from smartphone-captured eye images.
+          - Edge-deployed AI pipelines for on-device inference.
 
       - company: Pfizer CDI — Voice-Based Diagnostics (VBD-2)
         logo: /assets/img/cv/pfizer.png
