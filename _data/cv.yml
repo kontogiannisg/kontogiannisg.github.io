@@ -76,9 +76,9 @@ cv:
           - "Thesis: A Study on Improvement of Graph-based Information Retrieval Models through Machine and Deep Learning Techniques"
 
     Experience:
-      - company: CTI Diophantus
+      - company: CTI Diophantus — EN (POLLA) PLO
         logo: /assets/img/cv/cti.png
-        position: ML Researcher — EN (POLLA) PLO Project
+        position: ML Researcher
         location: Patras, Greece
         start_date: 2026-02-01
         end_date: present
