@@ -91,7 +91,7 @@ cv:
       - company: EU Horizon SynAir-G (Grant No. 101057271)
         logo: /assets/img/cv/synair-g.png
         position: Research Scientist
-        location: Remote
+        location: Patras, Greece
         start_date: 2022-09-01
         end_date: present
         highlights:
@@ -101,7 +101,7 @@ cv:
       - company: Pfizer CDI — EyeAI Research Project
         logo: /assets/img/cv/pfizer.png
         position: Research Scientist
-        location: Remote
+        location: Thessaloniki, Greece
         start_date: 2024-01-01
         end_date: 2025-10-01
         highlights:
@@ -111,7 +111,7 @@ cv:
       - company: Pfizer CDI — Voice-Based Diagnostics (VBD-2)
         logo: /assets/img/cv/pfizer.png
         position: Research Scientist
-        location: Remote
+        location: Thessaloniki, Greece
         start_date: 2023-01-01
         end_date: 2024-09-01
         highlights:
@@ -122,7 +122,7 @@ cv:
       - company: Pfizer CDI — Voice-Based Diagnostics (VBD-1)
         logo: /assets/img/cv/pfizer.png
         position: Research Scientist
-        location: Remote
+        location: Thessaloniki, Greece
         start_date: 2022-01-01
         end_date: 2023-08-01
         highlights:
