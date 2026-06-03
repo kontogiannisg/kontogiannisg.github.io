@@ -15,9 +15,16 @@ profile:
     <p>N. Kazantzaki St., 26504</p>
     <p>Rio, Patras, Greece</p>
     <p><a href="mailto:g.kontogiannis@ac.upatras.gr">g.kontogiannis@ac.upatras.gr</a></p>
+    <div class="social"><div class="contact-icons">
+      <a href="mailto:g.kontogiannis@ac.upatras.gr" title="email" aria-label="email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=4-FB1MoAAAAJ&hl=en" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://github.com/kontogiannisg" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/george-kontogiannis" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://orcid.org/0009-0003-7982-0991" title="ORCID" aria-label="ORCID" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid"></i></a>
+    </div></div>
 
 selected_papers: true
-social: true
+social: false
 
 announcements:
   enabled: true

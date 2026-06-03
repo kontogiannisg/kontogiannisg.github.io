@@ -1,0 +1,20 @@
+/* Local theme overrides for this site (mirrors the reference site's palette). */
+
+:root {
+  --global-theme-color: #420dab;
+  --global-hover-color: #420dab;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #2698ba;
+  --global-hover-color: #2698ba;
+}
+
+/* Make the "other" navbar dropdown reveal reliably (hover + keyboard focus),
+   independent of the gem's click-toggle JS. The `.show` selector preserves
+   click-toggle behaviour if that JS does fire. */
+.navbar-nav .nav-item.dropdown:hover > .dropdown-menu,
+.navbar-nav .nav-item.dropdown:focus-within > .dropdown-menu,
+.navbar-nav .nav-item.dropdown.show > .dropdown-menu {
+  display: block;
+}
