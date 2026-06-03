@@ -4,7 +4,7 @@ cv:
   email: g [dot] kontogiannis [at] ac [dot] upatras [dot] gr # g.kontogiannis@ac.upatras.gr
   location: Patras, Greece
   image: ""
-  summary: I am primarily interested in developing multimodal machine learning algorithms for health diagnostics. I am also interested in representation learning.
+  summary: I develop machine learning algorithms for respiratory health diagnostics, with a focus on audio modeling, edge deployment, and robustness across data modalities.
 
   social_networks:
     - network: GitHub
