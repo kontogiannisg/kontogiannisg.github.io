@@ -1,9 +1,31 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Venue badge colours (used by al_folio_core's bib.liquid: site.data.venues[abbr]).
+# Colours roughly track the publisher/venue identity.
 
-"PhysRev":
-  url: https://journals.aps.org/
+# Elsevier journals — Elsevier orange
+"ESWA":
+  url: https://www.sciencedirect.com/journal/expert-systems-with-applications
+  color: "#e9711c"
+"CBM":
+  url: https://www.sciencedirect.com/journal/computers-in-biology-and-medicine
+  color: "#e9711c"
 
-"Vision":
-  color: "#009f36"
+# MDPI (Sensors) — MDPI teal
+"MDPI":
+  url: https://www.mdpi.com/journal/sensors
+  color: "#13838b"
+
+# IEEE / EURASIP signal-processing venues — IEEE blue
+"EUSIPCO":
+  url: https://www.eurasip.org/
+  color: "#00629b"
+"DCOSS":
+  url: https://www.dcoss.org/
+  color: "#00629b"
+"JBHI":
+  url: https://www.embs.org/jbhi/
+  color: "#00629b"
+
+# Healthcare Informatics Research — sea green
+"HIR":
+  url: https://e-hir.org/
+  color: "#2e8b57"
