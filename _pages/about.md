@@ -37,7 +37,9 @@ latest_posts:
   limit: 3
 ---
 
-I am a Ph.D. Candidate in the <a href="https://www.ceid.upatras.gr/en" target="_blank">Department of Computer Engineering & Informatics (CEID)</a> at the <a href="https://www.upatras.gr/en" target="_blank">University of Patras</a>, advised by <a href="https://www.cti.gr/RD1/nikole/index.html" target="_blank">Prof. Sotiris Nikoletseas</a>. My research is mainly in developing algorithms to analyze and model respiratory sounds. My broader goal is developing robust, edge-deployable machine learning for health diagnostics across diverse data modalities — audio, time-series, and tabular clinical data. I am also interested in learning domain-invariant representations to disentangle nuisance factors from clinically relevant signal.
+I am a Ph.D. Candidate in the <a href="https://www.ceid.upatras.gr/en" target="_blank">Department of Computer Engineering & Informatics (CEID)</a> at the <a href="https://www.upatras.gr/en" target="_blank">University of Patras</a>, advised by <a href="https://www.cti.gr/RD1/nikole/index.html" target="_blank">Prof. Sotiris Nikoletseas</a>. My research is mainly in developing algorithms to analyze and model respiratory sounds. 
+
+My broader goal is developing robust, edge-deployable machine learning for health diagnostics across diverse data modalities — audio, time-series, and tabular clinical data. I am also interested in learning domain-invariant representations to disentangle nuisance factors from clinically relevant signal.
 
 <!-- I work on **audio AI**, **timeseries modeling**, **deep generative modeling**, and **edge-deployed machine learning** for respiratory health diagnostics. Ultimate goal, to turn everyday smartphones and wearables into robust, clinical-grade diagnostic tools. -->
 
