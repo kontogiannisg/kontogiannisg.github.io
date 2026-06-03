@@ -53,6 +53,7 @@ cv:
       - institution: University of Patras
         location: Rio, Greece
         url: https://www.upatras.gr/en
+        logo: /assets/img/cv/upatras.png
         area: Computer Engineering & Informatics
         studyType: PhD Candidate
         start_date: 2023-09-01
@@ -64,6 +65,7 @@ cv:
       - institution: University of Patras
         location: Rio, Greece
         url: https://www.upatras.gr/en
+        logo: /assets/img/cv/upatras.png
         area: Computer Engineering & Informatics
         studyType: MSci (Integrated Master)
         start_date: 2018-09-01
@@ -75,6 +77,7 @@ cv:
 
     Experience:
       - company: CTI Diophantus
+        logo: /assets/img/cv/cti.png
         position: ML Researcher — EN (POLLA) PLO Project
         location: Patras, Greece
         start_date: 2026-02-01
@@ -85,6 +88,7 @@ cv:
           - "Scientific Coordinator: Dr. Christos Manolopoulos"
 
       - company: EU Horizon SynAir-G (Grant No. 101057271)
+        logo: /assets/img/cv/synair-g.png
         position: Research Scientist
         location: Remote
         start_date: 2022-09-01
@@ -94,6 +98,7 @@ cv:
           - "Scientific Coordinator: Prof. Nikos Papadopoulos"
 
       - company: Pfizer CDI — EyeAI Research Project
+        logo: /assets/img/cv/pfizer.png
         position: Research Scientist
         location: Remote
         start_date: 2024-01-01
@@ -103,6 +108,7 @@ cv:
           - Dataset curation, annotation, and quality control for ocular imaging; computer vision models for automatic sclera segmentation from smartphone-captured eye images; edge-deployed AI pipelines for on-device inference.
 
       - company: Pfizer CDI — Voice-Based Diagnostics (VBD-2)
+        logo: /assets/img/cv/pfizer.png
         position: Research Scientist
         location: Remote
         start_date: 2023-01-01
@@ -113,6 +119,7 @@ cv:
           - Diagnostic models for distinguishing asthma from COPD based on acoustic biomarkers and patient clinical history.
 
       - company: Pfizer CDI — Voice-Based Diagnostics (VBD-1)
+        logo: /assets/img/cv/pfizer.png
         position: Research Scientist
         location: Remote
         start_date: 2022-01-01
@@ -121,6 +128,7 @@ cv:
           - Cough detection algorithms and abnormal/normal lung sound classifiers deployed for real-time smartphone inference using the built-in microphone.
 
       - company: University General Hospital of Patras — Dept. of Internal Medicine
+        logo: /assets/img/cv/pgnp.png
         position: Research Scientist
         location: Rio, Greece
         start_date: 2025-11-01
@@ -131,6 +139,7 @@ cv:
           - "Clinical collaborator: Prof. Dr. Dimitris Velissaris"
 
       - company: University General Hospital of Patras — Dept. of Internal Medicine
+        logo: /assets/img/cv/pgnp.png
         position: Research Scientist (Ocular Biomarkers)
         location: Rio, Greece
         start_date: 2024-01-01
