@@ -1,12 +1,16 @@
 {% comment %}
   Local override of al_folio_cv/templates/cv/experience.liquid.
-  Adds an optional `logo:` field (path under assets/, e.g. /assets/img/cv/cti.png).
+  Adds an optional `logo:` field (path under assets/, e.g. /assets/img/cv/cti.png),
+  rendered in the left column under the date and location.
   Everything else matches the gem template.
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% for entry in entries %}
     <li class="list-group-item">
+      {% capture company_name %}
+        {% if entry.name %}{{ entry.name }}{% elsif entry.company %}{{ entry.company }}{% elsif entry.organization %}{{ entry.organization }}{% endif %}
+      {% endcapture %}
       <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
           {% capture start_date %}
@@ -45,24 +49,23 @@
                   </td>
                 </tr>
               {% endif %}
+              {% if entry.logo %}
+                <tr>
+                  <td>
+                    <img
+                      class="cv-logo"
+                      src="{{ entry.logo | relative_url }}"
+                      alt="{{ company_name | strip }} logo"
+                      loading="lazy"
+                      onerror="this.style.display='none'"
+                    >
+                  </td>
+                </tr>
+              {% endif %}
             </tbody>
           </table>
         </div>
         <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
-          {% capture company_name %}
-            {% if entry.name %}{{ entry.name }}{% elsif entry.company %}{{ entry.company }}{% elsif entry.organization %}{{ entry.organization }}{% endif %}
-          {% endcapture %}
-
-          {% if entry.logo %}
-            <img
-              class="cv-logo"
-              src="{{ entry.logo | relative_url }}"
-              alt="{{ company_name | strip }} logo"
-              loading="lazy"
-              onerror="this.style.display='none'"
-            >
-          {% endif %}
-
           {% capture position_title %}
             {% if entry.position %}{{ entry.position }}{% endif %}
           {% endcapture %}

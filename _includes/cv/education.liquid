@@ -47,20 +47,23 @@
                   </td>
                 </tr>
               {% endif %}
+              {% if entry.logo %}
+                <tr>
+                  <td>
+                    <img
+                      class="cv-logo"
+                      src="{{ entry.logo | relative_url }}"
+                      alt="{{ entry.institution | strip }} logo"
+                      loading="lazy"
+                      onerror="this.style.display='none'"
+                    >
+                  </td>
+                </tr>
+              {% endif %}
             </tbody>
           </table>
         </div>
         <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
-          {% if entry.logo %}
-            <img
-              class="cv-logo"
-              src="{{ entry.logo | relative_url }}"
-              alt="{{ entry.institution | strip }} logo"
-              loading="lazy"
-              onerror="this.style.display='none'"
-            >
-          {% endif %}
-
           {% capture study_type %}
             {% if entry.studyType %}{{ entry.studyType }}{% elsif entry.degree %}{{ entry.degree }}{% endif %}
           {% endcapture %}
