@@ -313,14 +313,30 @@ html[data-theme="dark"] .profile .social .contact-icons .fa-github {
   border-color: var(--global-theme-color);
 }
 
-/* CV: small institution/company logos (optional `logo:` field per entry).
-   The white pad keeps dark logos visible in dark mode; missing files are
-   hidden gracefully via the img's onerror handler. */
+/* Remove the default disc bullets on CV entries (the list-group reset isn't
+   in al-folio's trimmed Bootstrap, so each entry showed a bullet by the date).
+   The nested `ul.items` highlight lists keep their bullets. */
+.cv .card ul.list-group {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+/* CV: institution/company logos (optional `logo:` field per entry).
+   Sized by a uniform height (not width) so wide and square logos look
+   consistent; the left rail is widened a little to give them room. The white
+   pad keeps dark logos visible in dark mode; missing files are hidden
+   gracefully via the img's onerror handler. */
+.cv .card .date-column {
+  width: 6rem;
+}
+
 .cv-logo {
   display: block;
+  width: auto;
+  height: 2.75rem;
   max-width: 100%;
-  max-height: 6.25rem;
-  margin: 0.5rem auto 0;
+  margin: 0.55rem auto 0;
   padding: 3px 5px;
   object-fit: contain;
   background: #fff;
