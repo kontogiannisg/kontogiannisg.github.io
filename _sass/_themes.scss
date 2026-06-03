@@ -18,3 +18,55 @@ html[data-theme="dark"] {
 .navbar-nav .nav-item.dropdown.show > .dropdown-menu {
   display: block;
 }
+
+/* Social/contact icons under the profile photo: compact horizontal row with
+   brand colours. The gem's default `.social .contact-icons` is sized at 4rem
+   for the big bottom-of-page block, which wraps in the narrow profile column. */
+.profile .social {
+  text-align: center;
+}
+
+.profile .social .contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 0.6rem;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.profile .social .contact-icons a {
+  display: inline-flex;
+  transition: transform 0.15s ease-in-out;
+}
+
+.profile .social .contact-icons a:hover {
+  transform: translateY(-2px);
+}
+
+/* Per-platform brand colours, exposed as --brand on the icon element and used in
+   every state (the trailing `!important` beats the gem's monochrome + hover rules). */
+.profile .social .contact-icons .fa-envelope {
+  --brand: var(--global-theme-color);
+}
+.profile .social .contact-icons .ai-google-scholar {
+  --brand: #4285f4;
+}
+.profile .social .contact-icons .fa-github {
+  --brand: #1f2328;
+}
+.profile .social .contact-icons .fa-linkedin {
+  --brand: #0a66c2;
+}
+.profile .social .contact-icons .ai-orcid {
+  --brand: #a6ce39;
+}
+html[data-theme="dark"] .profile .social .contact-icons .fa-github {
+  --brand: #e6edf3;
+}
+
+.profile .social .contact-icons a i::before {
+  color: var(--brand) !important;
+}

@@ -1,16 +1,27 @@
 ---
 ---
 
-@article{kontogiannis2026cough,
-  author       = {Kontogiannis, Georgios and Tzamalis, Pantelis and Giannikopoulos, Anastases and Nikoletseas, Sotiris},
-  title        = {On-device Cough Detection and Respiratory Disease Classification Enhanced by Generative Data Augmentation},
-  journal      = {Computers in Biology and Medicine},
-  year         = {2026},
-  note         = {In Press},
-  bibtex_show  = {true},
-  selected     = {true},
-  abbr         = {CBM},
-  abstract     = {Cough sounds are accessible, non-invasive biomarkers for respiratory disease assessment capturable using consumer-grade smartphones. We develop a multilayer, smartphone-compatible AI framework for automated cough detection and respiratory disease classification, and propose a generative augmentation strategy utilizing five Variational Autoencoder variants with a probabilistic cough-level fusion mechanism to address training data scarcity. The framework comprises a Cough Detection Module for real-time segmentation, a Disease Analysis Module classifying asthma, COVID-19, or healthy coughs, and a Generative Augmentation Module operating across the time-frequency domain while reconstructing samples in the time-domain for acoustic verifiability. All components operate in real time on commodity Android hardware.},
+@article{KONTOGIANNIS2026111784,
+title = {On-device cough detection and respiratory disease classification enhanced by generative data augmentation},
+journal = {Computers in Biology and Medicine},
+volume = {213},
+pages = {111784},
+year = {2026},
+issn = {0010-4825},
+doi = {https://doi.org/10.1016/j.compbiomed.2026.111784},
+url = {https://www.sciencedirect.com/science/article/pii/S0010482526003483},
+author = {George Kontogiannis and Pantelis Tzamalis and Anastases Giannikopoulos and Sotiris Nikoletseas},
+keywords = {Cough detection, Cough sound analysis, Generative data augmentation, Support vector machines, Convolutional neural networks, Variational autoencoders, On-device machine learning, Respiratory health monitoring, Ubiquitous computing},
+abstract = {Background
+Cough sounds are accessible, non-invasive biomarkers for respiratory disease assessment and can be captured using consumer-grade smartphones. Existing approaches typically focus solely on cough detection or rely on server-based deep learning for disease classification, which limits deployability and raises privacy concerns. Small, imbalanced cough datasets further hinder model generalization.
+Objective
+To develop a multilayer, smartphone-compatible AI framework for automated cough detection and respiratory disease classification, and to propose a pioneering generative augmentation strategy utilizing a suite of five Variational Autoencoder (VAE) variants and a probabilistic cough-level fusion mechanism to improve disease classification under severe data scarcity and the limitations of conventional audio augmentation techniques.
+Methods
+The proposed framework consists of three AI modules: (1) A Cough Detection Module (CDM) that performs real-time cough event detection and segmentation from continuous audio using lightweight models optimized for on-device execution. (2) A Disease Analysis Module (DAM) that classifies cough events into asthma, COVID-19, or healthy classes using parallel Support Vector Machine classifiers and a probabilistic cough-level fusion strategy. (3) A Generative Augmentation Module (GAM) employing five distinct VAE architectures. This module uniquely operates across the time-frequency domain for latent feature optimization while reconstructing samples in the time-domain to ensure acoustic verifiability.
+Results
+The CDM provides reliable segmentation across heterogeneous recording conditions. The DAM achieves strong discriminability between asthma, COVID-19, and healthy coughs using compact cepstral and spectral features. The multi-variant GAM framework demonstrates superior efficacy in alleviating class imbalance specifically, the cross-domain (time-frequency to time-domain) reconstruction allows for the clinical verification of synthetic biomarkers. All system components operate in real time on commodity Android hardware.
+Conclusion
+This integrated framework addresses key limitations in dataset availability, model generalizability, and deployability, introducing an interpretable generative approach that demonstrates the feasibility of smartphone-based acoustic sensing as a scalable and privacy-preserving tool for respiratory health monitoring.}
 }
 
 @article{kalogeropoulos2025spectral,
