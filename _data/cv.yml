@@ -84,8 +84,8 @@ cv:
         start_date: 2026-02-01
         end_date: present
         highlights:
-          - Direct personal research contract developing ML/DL systems to optimize Greece's nationwide school textbook distribution ecosystem under the new multiple-textbook policy.
-          - Predictive models for student population, textbook demand, and inventory forecasting; school clustering by textbook selection patterns; logistics simulation.
+          - Research contract developing ML/DL systems to optimize Greece's nationwide school textbook distribution ecosystem under the new multiple-textbook policy.
+          - Predictive models for student population, textbook demand, and inventory forecasting; school clustering by textbook selection patterns; simulation of logistics and what-if supply-chain scenarios; integration of the developed tools into the Publications Directorate IT infrastructure.
           - "Scientific Coordinator: Dr. Christos Manolopoulos"
 
       - company: EU Horizon SynAir-G (Grant No. 101057271)
@@ -95,6 +95,7 @@ cv:
         start_date: 2022-09-01
         end_date: present
         highlights:
+          - "*Disrupting Noxious Synergies of Indoor Air Pollutants and their Impact in Childhood Health and Wellbeing, using Advanced Intelligent Multisensing and Green Interventions* (Grant Agreement No. 101057271)."
           - Investigation of synergistic interactions between indoor air quality metrics and physiological signals from wearable devices using multivariate and temporal causal models.
           - "Scientific Coordinator: Prof. Nikos Papadopoulos"
 
@@ -106,9 +107,9 @@ cv:
         end_date: 2025-10-01
         highlights:
           # - Externally funded Pfizer CDI contract awarded to University of Patras after competitive proposal.
-          - Dataset curation, annotation, and quality control for ocular imaging.
-          - Development of computer vision models for automatic sclera segmentation from smartphone-captured eye images.
-          - Edge-deployed AI pipelines for on-device inference.
+          - Supervised dataset curation, annotation workflows, and quality control for ocular imaging.
+          - Developed an attention-gated UNet++ architecture for automatic sclera segmentation from smartphone-captured eye images.
+          - Quantized and deployed the model on-device for real-time smartphone inference (TensorFlow Lite / ONNX).
 
       - company: Pfizer CDI — Voice-Based Diagnostics (VBD-2)
         logo: /assets/img/cv/pfizer.png
@@ -117,9 +118,9 @@ cv:
         start_date: 2023-01-01
         end_date: 2024-09-01
         highlights:
-          - Smartphone-based cough detection, disease analysis, and continuous respiratory screening services using tracheal-acquired lung sound recordings.
-          - Deep generative models for synthesis of cough and lung sounds to enhance data augmentation and model robustness.
-          - Diagnostic models for distinguishing asthma from COPD based on acoustic biomarkers and patient clinical history.
+          - Designed and deployed an end-to-end, on-device AI pipeline for continuous, passive respiratory screening with real-time cough detection and disease analysis.
+          - Processed 10-second tracheal and chest-wall auscultation recordings from the built-in microphone, with percussive noise removal and frequency-spectrum correction to mitigate domain shift across auscultation sites and microphone devices, for asthma and COPD detection.
+          - Developed a ResNet-34 classifier with a probabilistic voting mechanism for robust, explainable disease identification, plus deep generative models for cough and lung-sound synthesis to address training-data scarcity.
 
       - company: Pfizer CDI — Voice-Based Diagnostics (VBD-1)
         logo: /assets/img/cv/pfizer.png
@@ -137,7 +138,8 @@ cv:
         start_date: 2025-11-01
         end_date: present
         highlights:
-          - Multimodal deep-learning research combining paired lung sound recordings, chest X-rays, and inflammatory biomarkers for distinguishing bacterial vs. viral pneumonia.
+          - Supervised dataset curation, annotation workflows, and quality control for respiratory infection data (audio and imaging).
+          - Multimodal deep-learning research combining paired lung sound recordings, chest X-rays, and inflammatory biomarkers to distinguish bacterial vs. viral pneumonia and identify clinically meaningful audio biomarkers.
           - Development of mobile and web-based clinical data acquisition tools for in-hospital deployment.
           - "Clinical collaborator: Prof. Dr. Dimitris Velissaris"
 
@@ -148,8 +150,9 @@ cv:
         start_date: 2024-01-01
         end_date: present
         highlights:
+          - Supervised curation, annotation, and quality control of ocular images for jaundice assessment.
           - Statistical and causal modeling of digital biomarkers and hematological indicators in patients diagnosed with jaundice.
-          - Study conducted under institutional ethics committee approval (IRB).
+          - Study conducted under institutional ethics committee approval (University General Hospital of Patras IRB).
           - "Clinical collaborator: Prof. Dr. Dimitris Velissaris"
 
     Teaching:
