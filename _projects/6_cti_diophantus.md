@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ML for Nationwide Textbook Distribution
+title: EN (POLLA) PLO
 description: Predictive modeling and logistics optimization for Greece's school textbook ecosystem (CTI Diophantus).
 # img: assets/img/projects/cti.jpg  # TODO: add a screenshot/figure
 importance: 3
