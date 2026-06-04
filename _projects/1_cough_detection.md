@@ -1,6 +1,6 @@
 ---
 layout: page
-title: On-Device Cough Detection & Respiratory Disease Classification
+title: Voice Based Diagnostics (VBD)
 description: Smartphone-based cough detection and asthma/COPD screening from tracheal lung sounds (Pfizer CDI — VBD-1 & VBD-2).
 # img: assets/img/projects/cough.jpg  # TODO: add a screenshot/demo GIF
 importance: 1
