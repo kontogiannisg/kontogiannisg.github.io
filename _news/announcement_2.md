@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted at <strong>Computers in Biology and Medicine</strong> — "On-device Cough Detection and Respiratory Disease Classification Enhanced by Generative Data Augmentation."
+Paper accepted at <strong>Computers in Biology and Medicine</strong> — "On-device Cough Detection and Respiratory Disease Classification Enhanced by Generative Data Augmentation." (IF 6.3)
