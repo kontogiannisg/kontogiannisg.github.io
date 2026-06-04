@@ -18,16 +18,16 @@ Answering this requires progress on three coupled fronts—learning robust repre
 </div>
 
 <div class="card mt-3 p-3">
-  <h3 class="card-title font-weight-medium">Generative Modeling under Clinical Data Scarcity</h3>
+  <h3 class="card-title font-weight-medium">Domain Generalization &amp; Robust Deployment</h3>
   <p>
-    Clinical audio datasets are small, imbalanced, expensive to label, and privacy-sensitive—conditions under which conventional augmentation falls short. I develop deep generative models (VAE and GAN families) that synthesize clinically meaningful cough and lung sounds and use them as a principled augmentation strategy to improve classifier robustness. A distinctive element of this work is <strong>cross-domain generation</strong>: optimizing latent representations in the time–frequency domain while reconstructing acoustically verifiable samples in the time domain, so that synthetic biomarkers remain clinically inspectable. I also study, more broadly, how synthetic data affects downstream recognition performance (<a href="/publications/#synthetic%20data%20on%20human%20gesture">DCOSS-IoT, 2024</a>; <a href="/publications/#on-device%20cough%20detection">CBM, 2026</a>).
+    Models that excel in the lab routinely fail in deployment: differences in recording devices, auscultation sites, and patient populations introduce systematic variability unrelated to the underlying pathology. Making models survive this shift is the methodological core of my work. I am developing a dedicated <strong>domain-adaptation framework</strong> for cross-dataset heterogeneity—so that a single model trained on one cohort, site, or device transfers to others without costly re-collection or retraining—together with deep <strong>denoising and signal-restoration architectures</strong> tailored to the very low signal-to-noise conditions of real-world medical recordings. This builds on metadata-conditioning mechanisms that let a transformer adjust to recording context (<a href="/publications/#metadata-conditioned%20audio%20transformers">EUSIPCO, 2026</a>) and on signal-level mitigation such as percussive-noise removal and frequency-spectrum correction across heterogeneous microphones and auscultation sites. Throughout, I treat calibration, explainability, and behavior on underrepresented patient subgroups as first-class objectives, because these properties determine whether a model can be trusted at the point of care.
   </p>
 </div>
 
 <div class="card mt-3 p-3">
-  <h3 class="card-title font-weight-medium">Robustness, Domain Shift &amp; Trustworthy Deployment</h3>
+  <h3 class="card-title font-weight-medium">Generative Modeling under Clinical Data Scarcity</h3>
   <p>
-    Models that excel in the lab routinely fail in deployment: differences in recording devices, auscultation sites, and patient populations introduce systematic variability unrelated to the underlying pathology. I study how a <em>single</em> model can adapt to these conditions—through metadata-conditioning mechanisms that let a transformer adjust to recording context (<a href="/publications/#metadata-conditioned%20audio%20transformers">EUSIPCO, 2026</a>), and through signal-level domain mitigation such as percussive-noise removal and frequency-spectrum correction across heterogeneous microphones and auscultation sites. Throughout, I treat calibration, explainability, and behavior on underrepresented patient subgroups as first-class objectives rather than afterthoughts, because these properties determine whether a model can be trusted at the point of care. Building on this, I am currently developing a dedicated <strong>domain-adaptation framework</strong> for cross-dataset heterogeneity—so that a model trained on one cohort, site, or device transfers to others without costly re-collection or retraining—together with deep <strong>denoising architectures</strong> tailored to the very low signal-to-noise conditions of real-world medical recordings.
+    Clinical audio datasets are small, imbalanced, expensive to label, and privacy-sensitive—conditions under which conventional augmentation falls short. I develop deep generative models (VAE and GAN families) that synthesize clinically meaningful cough and lung sounds and use them as a principled augmentation strategy to improve classifier robustness. A distinctive element of this work is <strong>cross-domain generation</strong>: optimizing latent representations in the time–frequency domain while reconstructing acoustically verifiable samples in the time domain, so that synthetic biomarkers remain clinically inspectable. I also study, more broadly, how synthetic data affects downstream recognition performance (<a href="/publications/#synthetic%20data%20on%20human%20gesture">DCOSS-IoT, 2024</a>; <a href="/publications/#on-device%20cough%20detection">CBM, 2026</a>).
   </p>
 </div>
 
@@ -41,12 +41,13 @@ Answering this requires progress on three coupled fronts—learning robust repre
 <div class="card mt-3 p-3">
   <h3 class="card-title font-weight-medium">Future Directions</h3>
   <p>
-    As a postdoctoral researcher I want to push edge-deployed medical AI from proof-of-concept toward dependable clinical tools, along four interconnected lines:
+    As a postdoctoral researcher I want to push edge-deployed health AI from proof-of-concept toward dependable tools. The first two directions are already underway:
   </p>
   <ul>
-    <li><strong>Generation that improves calibration, not just accuracy</strong>—integrating generative augmentation with uncertainty-aware and robust training, so synthetic data strengthens reliability rather than masking it.</li>
-    <li><strong>Calibrated multimodal fusion under real-world shift</strong>—principled handling of missing or degraded modalities at the point of care, where not every signal is always available.</li>
-    <li><strong>Causal and metadata-aware adaptation for fairness</strong>—models that remain equitable across devices, auscultation sites, and underrepresented patient subgroups.</li>
+    <li><strong>A cross-dataset domain-adaptation framework</strong>—a single model that transfers across cohorts, recording sites, and devices without re-collection or retraining, with robustness to distribution shift treated as a measurable design goal rather than a hoped-for side effect.</li>
+    <li><strong>Denoising and signal-restoration architectures for low-SNR medical signals</strong>—recovering diagnostic structure from recordings captured on consumer hardware in uncontrolled, real-world environments.</li>
+    <li><strong>Generation that improves calibration, not just accuracy</strong>—coupling generative augmentation with uncertainty-aware, robust training so synthetic data strengthens reliability rather than masking it.</li>
+    <li><strong>Calibrated multimodal fusion under shift</strong>—principled handling of missing or degraded modalities at the point of care, with equitable behavior across underrepresented patient subgroups.</li>
     <li><strong>Decisions that are explainable and auditable to clinicians</strong>—closing the loop between model outputs and clinical accountability.</li>
   </ul>
   <p>
