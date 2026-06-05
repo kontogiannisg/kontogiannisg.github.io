@@ -4,6 +4,7 @@ title: other
 nav: true
 nav_order: 6
 dropdown: true
+sitemap: false
 children:
   - title: research statement
     permalink: /research-statement

@@ -4,6 +4,7 @@ permalink: /blog/
 title: blog
 nav: false
 nav_order: 4
+sitemap: false # empty for now; remove this line when you start posting
 pagination:
   enabled: true
   collection: posts

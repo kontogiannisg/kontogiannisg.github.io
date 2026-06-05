@@ -5,6 +5,7 @@ title: repositories
 description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
 nav: false
 nav_order: 3
+sitemap: false # kept for future use; remove this line when you populate it
 ---
 
 {% if site.data.repositories.github_users %}
