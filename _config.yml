@@ -3,12 +3,12 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Georgios
-middle_name: "(George)"
+first_name: George
+middle_name: # leave null (not ""): an empty string is truthy in Liquid and adds a stray space
 last_name: Kontogiannis
 contact_note: >
   The best way to reach me is by email.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: >- # ">-" folds newlines AND strips the trailing newline (keeps Schema.org JSON-LD valid)
   PhD Candidate at the University of Patras working on audio AI, deep generative modeling,
   and edge-deployed ML systems for respiratory health diagnostics.
 footer_text: >
