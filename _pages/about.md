@@ -21,6 +21,7 @@ profile:
       <a href="https://github.com/kontogiannisg" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
       <a href="https://www.linkedin.com/in/george-kontogiannis" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
       <a href="https://orcid.org/0009-0003-7982-0991" title="ORCID" aria-label="ORCID" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid"></i></a>
+      <a href="https://www.researchgate.net/profile/George-Kontogiannis-2/" title="ResearchGate" aria-label="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="ai ai-researchgate"></i></a>
     </div></div>
 
 selected_papers: true
