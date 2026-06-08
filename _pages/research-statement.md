@@ -51,6 +51,6 @@ Answering this requires progress on three coupled fronts—learning robust repre
     <li><strong>Decisions that are explainable and auditable to clinicians</strong>—closing the loop between model outputs and clinical accountability.</li>
   </ul>
   <p>
-    My longer-term goal is a general methodology for trustworthy edge health AI that transfers across acoustic, visual, and physiological signals. I am actively seeking postdoctoral positions and research collaborations where I can develop this agenda.
+    My longer-term goal is a general methodology for trustworthy edge health AI that transfers across acoustic, visual, and physiological signals. I am open to  postdoctoral positions and research collaborations where I can develop this agenda.
   </p>
 </div>
