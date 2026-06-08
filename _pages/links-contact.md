@@ -20,6 +20,7 @@ opportunities, research collaborations in audio/medical AI, and industry researc
 - **GitHub:** [github.com/kontogiannisg](https://github.com/kontogiannisg)
 - **LinkedIn:** [linkedin.com/in/george-kontogiannis](https://www.linkedin.com/in/george-kontogiannis)
 - **ORCID:** [0009-0003-7982-0991](https://orcid.org/0009-0003-7982-0991)
+- **ResearchGate:** [researchgate.net/profile/George-Kontogiannis-2](https://www.researchgate.net/profile/George-Kontogiannis-2/)
 
 ## Affiliation
 
