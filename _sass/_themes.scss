@@ -358,3 +358,40 @@ html[data-theme="dark"] .profile .social .contact-icons .fa-github {
 .cv .card .list-group-flush > .list-group-item:last-child {
   border-bottom: 0;
 }
+
+/*******************************************************************************
+ * Navbar "other" dropdown — layout fixes
+ *
+ * 1) Desktop: dropdown items have no `white-space: nowrap`, so the longer label
+ *    ("links/contact info") wraps inside the fixed 12rem menu and folds oddly.
+ *    Keep each item on one line and let the menu grow to fit its content.
+ * 2) Mobile: below the navbar's collapse breakpoint (Bootstrap sm = 576px) the
+ *    nav stacks vertically, but the menu stays `position: absolute; right: 0`,
+ *    so it pops out and overflows the screen edge / device safe-area. Render it
+ *    inline within the stacked menu instead, indented as a sub-list.
+ ******************************************************************************/
+.navbar .nav-item.dropdown .dropdown-menu {
+  white-space: nowrap;
+}
+.navbar .nav-item.dropdown .dropdown-item {
+  white-space: nowrap;
+}
+
+@media (max-width: 575.98px) {
+  .navbar .nav-item.dropdown .dropdown-menu {
+    position: static;
+    inset: auto; /* clear the right:0 / left:auto / top pinning */
+    width: 100%;
+    min-width: 0;
+    margin: 0.25rem 0 0.25rem 0.75rem; /* indent so children read as sub-items */
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    background-color: transparent;
+    white-space: normal;
+  }
+  .navbar .nav-item.dropdown .dropdown-item {
+    padding-left: 0.25rem;
+    white-space: normal; /* allow wrapping on very narrow screens */
+  }
+}
