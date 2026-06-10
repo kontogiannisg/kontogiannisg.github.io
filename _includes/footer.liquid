@@ -1,3 +1,39 @@
+{% comment %}
+  Person structured data with alternateName — the legitimate, invisible way to
+  be found under name variants/spellings (Latin + Greek), instead of hidden
+  white/transparent keyword text (which Google's spam policy penalises).
+  Scoped to the homepage so there's a single canonical Person entity.
+{% endcomment %}
+{% if page.url == '/' %}
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "George Kontogiannis",
+        "alternateName": [
+            "Georgios Kontogiannis",
+            "Giorgos Kontogiannis",
+            "Georgios Kontogiannhs",
+            "Γιώργος Κοντογιάννης",
+            "Γεώργιος Κοντογιάννης"
+        ],
+        "url": "https://kontogiannisg.github.io/",
+        "jobTitle": "Ph.D. Candidate in Artificial Intelligence",
+        "affiliation": {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Patras"
+        },
+        "sameAs": [
+            "https://scholar.google.com/citations?user=4-FB1MoAAAAJ",
+            "https://github.com/kontogiannisg",
+            "https://www.linkedin.com/in/george-kontogiannis",
+            "https://orcid.org/0009-0003-7982-0991",
+            "https://www.researchgate.net/profile/George-Kontogiannis-2/"
+        ]
+    }
+  </script>
+{% endif %}
+
 {% capture footer_contents %}
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
