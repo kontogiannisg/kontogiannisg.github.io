@@ -12,7 +12,7 @@ description: >- # ">-" folds newlines AND strips the trailing newline (keeps Sch
   PhD Candidate at the University of Patras working on audio AI, deep generative modeling,
   and edge-deployed ML systems for respiratory health diagnostics.
 footer_text: >
-keywords: audio AI, respiratory sound analysis, deep learning, medical AI, edge deployment, generative models
+keywords: audio AI, respiratory sound analysis, deep learning, medical AI, edge deployment, generative models, George Kontogiannis, Georgios Kontogiannis, Giorgos Kontogiannis, Γιώργος Κοντογιάννης, Γεώργιος Κοντογιάννης
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico # real file in /assets/img/ — Google can't index data:-URI emoji favicons, so use a crawlable image
 
