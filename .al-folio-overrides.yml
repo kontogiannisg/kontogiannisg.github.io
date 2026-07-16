@@ -1,0 +1,10 @@
+---
+version: 1
+overrides:
+  _includes/metadata.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.9
+    upstream_path: _includes/metadata.liquid
+    upstream_sha256: b9b8ea49980bb85109e344198a3b97818fcb6f5fec89e11f98e46af1529bc96a
+    local_sha256: e1c486d3617ca7dc3742ded34ededa742bfb33b99f573966b7ed7f362f2a814f
+    acknowledged_at: "2026-07-16"
