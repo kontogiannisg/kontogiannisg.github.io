@@ -165,8 +165,8 @@ cv:
     #   - bullet: "**Pfizer CDI — EyeAI Research Project** (2024). Critically contributed to the research proposal that secured the CDI contract for ocular biomarker analysis through computer vision methods, including system design and edge deployment strategy."
 
     Talks & Presentations:
-      - bullet: '**EUSIPCO 2026** — "Metadata-Conditioned Audio Transformers for Adaptive Respiratory Sound Classification." G. Kontogiannis, P. Tzamalis, S. Nikoletseas.'
-      - bullet: '**DCOSS-IoT 2024** — "Exploring the Impact of Synthetic Data on Human Gesture Recognition Tasks Using GANs." G. Kontogiannis, P. Tzamalis, S. Nikoletseas.'
+      - bullet: '**EUSIPCO 2026** — "Metadata-Conditioned Audio Transformers for Adaptive Respiratory Sound Classification." G. Kontogiannis, P. Tzamalis, S. Nikoletseas. *Bruges, Belgium.*'
+      - bullet: '**DCOSS-IoT 2024** — "Exploring the Impact of Synthetic Data on Human Gesture Recognition Tasks Using GANs." G. Kontogiannis, P. Tzamalis, S. Nikoletseas. *Abu Dhabi, UAE.*'
 
     # Mentorship:
     #   - bullet: "**Alexandros Vallatos, MSc** — *Causal Artificial Intelligence in IoT Health Data*."

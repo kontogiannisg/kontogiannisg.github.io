@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted at <strong>EUSIPCO 2026</strong> (In Press) — "Metadata-Conditioned Audio Transformers for Adaptive Respiratory Sound Classification."
+Paper accepted at <strong>EUSIPCO 2026</strong> — "Metadata-Conditioned Audio Transformers for Adaptive Respiratory Sound Classification."
