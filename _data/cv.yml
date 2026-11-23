@@ -93,7 +93,7 @@ cv:
         highlights:
           - Research contract developing ML/DL systems to optimize Greece's nationwide school textbook distribution ecosystem under the new multiple-textbook policy.
           - Predictive models for student population, textbook demand, and inventory forecasting; school clustering by textbook selection patterns; simulation of logistics and what-if supply-chain scenarios; integration of the developed tools into the Publications Directorate IT infrastructure.
-          - "Scientific Coordinator: Dr. Christos Manolopoulos"
+          - "Supervisor: Dr. Christos Manolopoulos"
 
       - company: University General Hospital of Patras — Dept. of Internal Medicine
         logo: /assets/img/cv/pgnp.png
@@ -168,21 +168,21 @@ cv:
       - bullet: "**Lab Instructor — Digital Electronics Laboratory** (Feb – Jun 2022). University of Patras; supervisor Dr. Georgios Oikonomou. Guided undergraduates through hands-on digital circuit experiments, theory sessions, and result analysis."
 
     Grant Writing:
-      - bullet: "**Pfizer CDI — Voice-Based Diagnostics (VBD-2)** (2023). Primary author of the research proposal (methodology, technical approach, and preliminary data) for the funded CDI contract with the University of Patras on smartphone-based respiratory disease monitoring."
+      - bullet: "**Pfizer CDI — Voice-Based Diagnostics (VBD-2)** (2023). Co-authored the research proposal (methodology, technical approach, and preliminary data) for the funded CDI contract with the University of Patras on smartphone-based respiratory disease monitoring."
       - bullet: "**Pfizer CDI — EyeAI Research Project** (2024). Primary author of the research proposal for the funded CDI contract on ocular biomarker analysis with computer vision, including system design and edge-deployment strategy."
 
     Talks & Presentations:
       - bullet: '**EUSIPCO 2026** — "Metadata-Conditioned Audio Transformers for Adaptive Respiratory Sound Classification." G. Kontogiannis, P. Tzamalis, S. Nikoletseas. *Bruges, Belgium.*'
       - bullet: '**DCOSS-IoT 2024** — "Exploring the Impact of Synthetic Data on Human Gesture Recognition Tasks Using GANs." G. Kontogiannis, P. Tzamalis, S. Nikoletseas. *Abu Dhabi, UAE.*'
 
-    MSc Thesis Co-Supervision:
-      - bullet: "Day-to-day supervision of MSc theses formally supervised by Prof. Sotiris Nikoletseas."
-      - bullet: "**Alexandros Vallatos, MSc** — *Causal Artificial Intelligence in IoT Health Data*."
-      - bullet: "**Miltiadis Mades, MSc** — *Supervised Domain Adaptation Techniques for Classifying Pathological Respiratory Sounds*."
-      - bullet: "**Chrisavgi Pateli, MSc** — *Methods and Techniques for the Automatic Detection and Segmentation of the Respiratory Cycle from Lung Sound Signals*."
+    Thesis Co-Supervision:
+      - bullet: "**Alexandros Vallatos** — *Causal Artificial Intelligence in IoT Health Data*."
+      - bullet: "**Miltiadis Mades** — *Supervised Domain Adaptation Techniques for Classifying Pathological Respiratory Sounds*."
+      - bullet: "**Chrisavgi Pateli** — *Methods and Techniques for the Automatic Detection and Segmentation of the Respiratory Cycle from Lung Sound Signals*."
+      - bullet: "**Eirini Tsironi** — *Reliable Quantification of Blood Biomarkers from Eye Images under Varying Acquisition Conditions*."
+      - bullet: "**Charalampos Pappas** — *Cold-Start Adoption Prediction for Electronic Music Using Purchase Graphs*."
 
     Service:
-      - bullet: "**Reviewer**, IEEE Transactions on Biomedical Engineering (TBME), 2025."
       - bullet: "**Server Manager — IoT Laboratory, Dept. of CEID, University of Patras** (2023 – present). Deployed and maintain the lab's ML experimentation infrastructure: containerized MLflow tracking server with PostgreSQL and MinIO backends via Docker Compose, exposed through an Nginx reverse proxy; Linux server administration and backend hosting for multiple IoT Laboratory web platforms."
 
     Awards:
@@ -210,7 +210,7 @@ cv:
 
       - name: Mobile Development
         icon: fa-solid fa-mobile-screen
-        keywords: "Flutter, Android SDK"
+        keywords: "Flutter, Android SDK, Swift (iOS)"
 
       - name: Databases & Storage
         icon: fa-solid fa-database
