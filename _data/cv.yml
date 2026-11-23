@@ -79,7 +79,7 @@ cv:
         end_date: 2023-07-01
         score: "7.81/10 (Very Good)"
         highlights:
-          - "Advisor: Prof. Christos Makris"
+          - "Advisor: [Prof. Christos Makris](https://scholar.google.com/citations?user=Aer3e90AAAAJ&hl=en)"
           - "Thesis: A Study on Improvement of Graph-based Information Retrieval Models through Machine and Deep Learning Techniques"
           - "Thesis research was extended and published as a peer-reviewed journal article in *Expert Systems with Applications* (ESWA)."
 
@@ -95,16 +95,29 @@ cv:
           - Predictive models for student population, textbook demand, and inventory forecasting; school clustering by textbook selection patterns; simulation of logistics and what-if supply-chain scenarios; integration of the developed tools into the Publications Directorate IT infrastructure.
           - "Scientific Coordinator: Dr. Christos Manolopoulos"
 
-      - company: EU Horizon SynAir-G (Grant No. 101057271)
-        logo: /assets/img/cv/synair-g.png
-        position: Research Scientist
-        location: Patras, Greece
-        start_date: 2022-09-01
+      - company: University General Hospital of Patras — Dept. of Internal Medicine
+        logo: /assets/img/cv/pgnp.png
+        position: Research Scientist (Respiratory Infections)
+        location: Rio, Greece
+        start_date: 2025-11-01
         end_date: present
         highlights:
-          - "*Disrupting Noxious Synergies of Indoor Air Pollutants and their Impact in Childhood Health and Wellbeing, using Advanced Intelligent Multisensing and Green Interventions* (Grant Agreement No. 101057271)."
-          - Investigation of synergistic interactions between indoor air quality metrics and physiological signals from wearable devices using multivariate and temporal causal models.
-          - "Scientific Coordinator: Prof. Nikos Papadopoulos"
+          - Supervised dataset curation, annotation workflows, and quality control for respiratory infection data (audio and imaging).
+          - Multimodal deep-learning research combining paired lung sound recordings, chest X-rays, and inflammatory biomarkers to distinguish bacterial vs. viral pneumonia and identify clinically meaningful audio biomarkers.
+          - Development of mobile and web-based clinical data acquisition tools for in-hospital deployment.
+          - "Clinical collaborator: Prof. Dimitrios Velissaris"
+
+      - company: University General Hospital of Patras — Dept. of Internal Medicine
+        logo: /assets/img/cv/pgnp.png
+        position: Research Scientist (Ocular Biomarkers)
+        location: Rio, Greece
+        start_date: 2024-01-01
+        end_date: present
+        highlights:
+          - Supervised curation, annotation, and quality control of ocular images for jaundice assessment.
+          - Statistical and causal modeling of digital biomarkers and hematological indicators in patients diagnosed with jaundice.
+          - Study conducted under institutional ethics committee approval (University General Hospital of Patras IRB).
+          - "Clinical collaborator: Prof. Dimitrios Velissaris"
 
       - company: Pfizer CDI — EyeAI Research Project
         logo: /assets/img/cv/pfizer.png
@@ -129,6 +142,17 @@ cv:
           - Processed 10-second tracheal and chest-wall auscultation recordings from the built-in microphone, with percussive noise removal and frequency-spectrum correction to mitigate domain shift across auscultation sites and microphone devices, for asthma and COPD detection.
           - Developed a ResNet-34 classifier with a probabilistic voting mechanism for robust, explainable disease identification, plus deep generative models for cough and lung-sound synthesis to address training-data scarcity.
 
+      - company: EU Horizon SynAir-G (Grant No. 101057271)
+        logo: /assets/img/cv/synair-g.png
+        position: Research Scientist
+        location: Patras, Greece
+        start_date: 2022-09-01
+        end_date: present
+        highlights:
+          - "*Disrupting Noxious Synergies of Indoor Air Pollutants and their Impact in Childhood Health and Wellbeing, using Advanced Intelligent Multisensing and Green Interventions* (Grant Agreement No. 101057271)."
+          - Investigation of synergistic interactions between indoor air quality metrics and physiological signals from wearable devices using multivariate and temporal causal models.
+          - "Scientific Coordinator: Prof. Nikos Papadopoulos"
+
       - company: Pfizer CDI — Voice-Based Diagnostics (VBD-1)
         logo: /assets/img/cv/pfizer.png
         position: Research Scientist
@@ -138,47 +162,28 @@ cv:
         highlights:
           - Cough detection algorithms and abnormal/normal lung sound classifiers deployed for real-time smartphone inference using the built-in microphone.
 
-      - company: University General Hospital of Patras — Dept. of Internal Medicine
-        logo: /assets/img/cv/pgnp.png
-        position: Research Scientist
-        location: Rio, Greece
-        start_date: 2025-11-01
-        end_date: present
-        highlights:
-          - Supervised dataset curation, annotation workflows, and quality control for respiratory infection data (audio and imaging).
-          - Multimodal deep-learning research combining paired lung sound recordings, chest X-rays, and inflammatory biomarkers to distinguish bacterial vs. viral pneumonia and identify clinically meaningful audio biomarkers.
-          - Development of mobile and web-based clinical data acquisition tools for in-hospital deployment.
-          - "Clinical collaborator: Prof. Dr. Dimitris Velissaris"
-
-      - company: University General Hospital of Patras — Dept. of Internal Medicine
-        logo: /assets/img/cv/pgnp.png
-        position: Research Scientist (Ocular Biomarkers)
-        location: Rio, Greece
-        start_date: 2024-01-01
-        end_date: present
-        highlights:
-          - Supervised curation, annotation, and quality control of ocular images for jaundice assessment.
-          - Statistical and causal modeling of digital biomarkers and hematological indicators in patients diagnosed with jaundice.
-          - Study conducted under institutional ethics committee approval (University General Hospital of Patras IRB).
-          - "Clinical collaborator: Prof. Dr. Dimitris Velissaris"
-
     Teaching:
       - bullet: "**Guest Lecturer — AI Algorithms and Applications for IoT** (Spring 2026). University of Patras, Dept. of Computer Engineering & Informatics; course coordinator Prof. Sotiris Nikoletseas. Designed and delivered a six-lecture applied ML module for IoT time-series data, developing all materials from scratch: LaTeX slide decks, Python demos, and a graded end-to-end project on the PAMAP2 activity recognition dataset."
       - bullet: "**Lab Instructor — Analog Electronics Laboratory** (Sep 2021 – Jan 2022). University of Patras; supervisor Dr. Georgios Oikonomou. Guided undergraduates through hands-on analog circuit experiments, theory sessions, and result analysis."
       - bullet: "**Lab Instructor — Digital Electronics Laboratory** (Feb – Jun 2022). University of Patras; supervisor Dr. Georgios Oikonomou. Guided undergraduates through hands-on digital circuit experiments, theory sessions, and result analysis."
 
-    # Grant Writing:
-    #   - bullet: "**Pfizer CDI — Voice-Based Diagnostics (VBD-2)** (2023). Critically contributed to the research proposal (methodology, technical approach, and preliminary data) that secured the externally funded CDI contract with the University of Patras for smartphone-based respiratory disease monitoring."
-    #   - bullet: "**Pfizer CDI — EyeAI Research Project** (2024). Critically contributed to the research proposal that secured the CDI contract for ocular biomarker analysis through computer vision methods, including system design and edge deployment strategy."
+    Grant Writing:
+      - bullet: "**Pfizer CDI — Voice-Based Diagnostics (VBD-2)** (2023). Primary author of the research proposal (methodology, technical approach, and preliminary data) for the funded CDI contract with the University of Patras on smartphone-based respiratory disease monitoring."
+      - bullet: "**Pfizer CDI — EyeAI Research Project** (2024). Primary author of the research proposal for the funded CDI contract on ocular biomarker analysis with computer vision, including system design and edge-deployment strategy."
 
     Talks & Presentations:
       - bullet: '**EUSIPCO 2026** — "Metadata-Conditioned Audio Transformers for Adaptive Respiratory Sound Classification." G. Kontogiannis, P. Tzamalis, S. Nikoletseas. *Bruges, Belgium.*'
       - bullet: '**DCOSS-IoT 2024** — "Exploring the Impact of Synthetic Data on Human Gesture Recognition Tasks Using GANs." G. Kontogiannis, P. Tzamalis, S. Nikoletseas. *Abu Dhabi, UAE.*'
 
-    # Mentorship:
-    #   - bullet: "**Alexandros Vallatos, MSc** — *Causal Artificial Intelligence in IoT Health Data*."
-    #   - bullet: "**Miltiadis Mades, MSc** — *Supervised Domain Adaptation Techniques for Classifying Pathological Respiratory Sounds*."
-    #   - bullet: "**Chrisavgi Pateli, MSc** — *Methods and Techniques for the Automatic Detection and Segmentation of the Respiratory Cycle from Lung Sound Signals*."
+    MSc Thesis Co-Supervision:
+      - bullet: "Day-to-day supervision of MSc theses formally supervised by Prof. Sotiris Nikoletseas."
+      - bullet: "**Alexandros Vallatos, MSc** — *Causal Artificial Intelligence in IoT Health Data*."
+      - bullet: "**Miltiadis Mades, MSc** — *Supervised Domain Adaptation Techniques for Classifying Pathological Respiratory Sounds*."
+      - bullet: "**Chrisavgi Pateli, MSc** — *Methods and Techniques for the Automatic Detection and Segmentation of the Respiratory Cycle from Lung Sound Signals*."
+
+    Service:
+      - bullet: "**Reviewer**, IEEE Transactions on Biomedical Engineering (TBME), 2025."
+      - bullet: "**Server Manager — IoT Laboratory, Dept. of CEID, University of Patras** (2023 – present). Deployed and maintain the lab's ML experimentation infrastructure: containerized MLflow tracking server with PostgreSQL and MinIO backends via Docker Compose, exposed through an Nginx reverse proxy; Linux server administration and backend hosting for multiple IoT Laboratory web platforms."
 
     Awards:
       - title: University of Patras PhD Research Scholarship
@@ -189,7 +194,7 @@ cv:
     Skills:
       - name: Machine Learning & Deep Learning
         icon: fa-solid fa-brain
-        keywords: "PyTorch, TensorFlow, Ajax, Scikit-Learn, Hugging Face Transformers, TensorFlow Lite, ONNX, MLflow, Weights & Biases"
+        keywords: "PyTorch, TensorFlow, JAX, Scikit-Learn, Hugging Face Transformers, TensorFlow Lite, ONNX, MLflow, Weights & Biases"
 
       - name: Signal Processing & Computer Vision
         icon: fa-solid fa-wave-square
@@ -221,7 +226,3 @@ cv:
 
       - name: English
         summary: "Proficient (Michigan ECPE)"
-
-    # Service:
-    #   - bullet: "**Reviewer**, IEEE Transactions on Biomedical Engineering (TBME), 2025."
-    #   - bullet: "**Server Manager — IoT Laboratory, Dept. of CEID, University of Patras** (2023 – present). Deployed and maintain the lab's ML experimentation infrastructure: containerized MLflow tracking server with PostgreSQL and MinIO backends via Docker Compose, exposed through an Nginx reverse proxy; Linux server administration and backend hosting for multiple IoT Laboratory web platforms."
