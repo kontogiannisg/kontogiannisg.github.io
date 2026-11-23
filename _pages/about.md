@@ -44,4 +44,4 @@ My broader goal is developing robust, edge-deployable machine learning for healt
 
 <!-- I work on **audio AI**, **timeseries modeling**, **deep generative modeling**, and **edge-deployed machine learning** for respiratory health diagnostics. Ultimate goal, to turn everyday smartphones and wearables into robust, clinical-grade diagnostic tools. -->
 
-See my [research statement](/research-statement) for details, my [projects](/projects/) for selected work, and [links/contact info](/links-contact) to get in touch. I am open to post-doctoral, collaboration, and industry research opportunities.
+See my [projects](/projects/) for selected work and [links/contact info](/links-contact) to get in touch. I am open to post-doctoral, collaboration, and industry research opportunities.
