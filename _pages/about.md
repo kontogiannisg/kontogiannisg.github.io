@@ -40,8 +40,8 @@ latest_posts:
 
 I am **George Kontogiannis** (also written _Georgios_ / _Γιώργος Κοντογιάννης_), a Ph.D. Candidate in the <a href="https://www.ceid.upatras.gr/en" target="_blank">Department of Computer Engineering & Informatics</a> at the <a href="https://www.upatras.gr/en" target="_blank">University of Patras</a>, advised by <a href="https://www.cti.gr/RD1/nikole/index.html" target="_blank">Prof. Sotiris Nikoletseas</a>. My research is mainly in developing algorithms to analyze and model respiratory sounds.
 
-My broader goal is developing robust, edge-deployable machine learning for health diagnostics across diverse data modalities — audio, time-series, and tabular clinical data. I am also interested in learning domain-invariant representations to disentangle nuisance factors from clinically relevant signal.
+My broader goal is robust machine learning for health diagnostics that can run on phones and wearables, using audio, images, time series, and tabular clinical data. I am particularly interested in learning domain-invariant representations that disentangle nuisance factors from clinically relevant signal.
 
 <!-- I work on **audio AI**, **timeseries modeling**, **deep generative modeling**, and **edge-deployed machine learning** for respiratory health diagnostics. Ultimate goal, to turn everyday smartphones and wearables into robust, clinical-grade diagnostic tools. -->
 
-See my [projects](/projects/) for selected work and [links/contact info](/links-contact) to get in touch. I am open to post-doctoral, collaboration, and industry research opportunities.
+See my [projects](/projects/) for selected work and [links/contact info](/links-contact) to get in touch. I am looking for postdoctoral positions and am also open to research collaborations and industry research roles.
