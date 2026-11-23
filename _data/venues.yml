@@ -24,8 +24,6 @@
 "JBHI":
   url: https://www.embs.org/jbhi/
   color: "#00629b"
-
-# Healthcare Informatics Research — sea green
-"HIR":
-  url: https://e-hir.org/
-  color: "#2e8b57"
+"IEEE Access":
+  url: https://ieeeaccess.ieee.org/
+  color: "#00629b"
