@@ -4,7 +4,7 @@ cv:
   email: g [dot] kontogiannis [at] ac [dot] upatras [dot] gr # g.kontogiannis@ac.upatras.gr
   location: Patras, Greece
   image: ""
-  summary: I develop machine learning algorithms for respiratory health diagnostics, with a focus on audio modeling, edge deployment, and robustness across data modalities.
+  summary: I develop machine learning algorithms for health diagnostics, mainly respiratory sound analysis, with a focus on robustness and edge deployment.
 
   social_networks:
     - network: GitHub
@@ -43,6 +43,13 @@ cv:
           - Domain shift and dataset heterogeneity
           - edge deployment
           - trustworthy ML in real-world healthcare systems
+
+      - name: Multimodal & Medical Imaging
+        icon: fa-solid fa-eye
+        keywords:
+          - Sclera segmentation and jaundice assessment
+          - fusion of lung sounds and chest imaging
+          - quantification of clinical biomarkers from digital biomarkers
 
       - name: Graph-Based Information Retrieval
         icon: fa-solid fa-diagram-project
