@@ -67,7 +67,7 @@ cv:
         end_date: present
         highlights:
           - "Advisor: [Prof. Sotiris Nikoletseas](https://www.cti.gr/RD1/nikole/index.html)"
-          - "Focus: audio AI for respiratory/cough sound analysis, multimodal AI modeling, deep generative modeling for medical audio, robust and patient-centric diagnostic pipelines for edge-deployed clinical applications"
+          - "Thesis (working title): Multimodal Respiratory Health Monitoring on Consumer Devices: Learning from Scarce, Noisy, and Heterogeneous Data"
 
       - institution: University of Patras
         location: Rio, Greece
