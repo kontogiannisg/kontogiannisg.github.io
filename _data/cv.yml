@@ -140,9 +140,9 @@ cv:
         highlights:
           - Designed and deployed an end-to-end, on-device AI pipeline for continuous, passive respiratory screening with real-time cough detection and disease analysis.
           - Processed 10-second tracheal and chest-wall auscultation recordings from the built-in microphone, with percussive noise removal and frequency-spectrum correction to mitigate domain shift across auscultation sites and microphone devices, for asthma and COPD detection.
-          - Developed a ResNet-34 classifier with a probabilistic voting mechanism for robust, explainable disease identification, plus deep generative models for cough and lung-sound synthesis to address training-data scarcity.
+          - Developed a ResNet-34 classifier with probabilistic voting for disease identification, plus deep generative models for cough and lung-sound synthesis to address training-data scarcity.
 
-      - company: EU Horizon SynAir-G (Grant No. 101057271)
+      - company: EU Horizon SynAir-G
         logo: /assets/img/cv/synair-g.png
         position: Research Scientist
         location: Patras, Greece
@@ -163,7 +163,7 @@ cv:
           - Cough detection algorithms and abnormal/normal lung sound classifiers deployed for real-time smartphone inference using the built-in microphone.
 
     Teaching:
-      - bullet: "**Guest Lecturer — AI Algorithms and Applications for IoT** (Spring 2026). University of Patras, Dept. of Computer Engineering & Informatics; course coordinator Prof. Sotiris Nikoletseas. Designed and delivered a six-lecture applied ML module for IoT time-series data, developing all materials from scratch: LaTeX slide decks, Python demos, and a graded end-to-end project on the PAMAP2 activity recognition dataset."
+      - bullet: "**Guest Lecturer — AI Algorithms and Applications for IoT** (Spring 2026). University of Patras, Dept. of Computer Engineering & Informatics; course coordinator Prof. Sotiris Nikoletseas. Designed and taught a six-lecture applied ML module on IoT time-series data, and prepared all materials: slides, Python demos, and a graded end-to-end project on the PAMAP2 activity recognition dataset."
       - bullet: "**Lab Instructor — Analog Electronics Laboratory** (Sep 2021 – Jan 2022). University of Patras; supervisor Dr. Georgios Oikonomou. Guided undergraduates through hands-on analog circuit experiments, theory sessions, and result analysis."
       - bullet: "**Lab Instructor — Digital Electronics Laboratory** (Feb – Jun 2022). University of Patras; supervisor Dr. Georgios Oikonomou. Guided undergraduates through hands-on digital circuit experiments, theory sessions, and result analysis."
 
@@ -189,7 +189,7 @@ cv:
       - title: University of Patras PhD Research Scholarship
         date: 2023-09-01
         awarder: University of Patras
-        summary: Competitive scholarship awarded for PhD research in Computer Engineering & Informatics (2023–2025).
+        summary: Scholarship for PhD research in Computer Engineering & Informatics (2023–2025).
 
     Skills:
       - name: Machine Learning & Deep Learning
