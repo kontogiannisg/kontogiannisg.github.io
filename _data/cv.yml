@@ -31,6 +31,13 @@ cv:
           - deep learning
           - cough and lung sound analysis
 
+      - name: Wearable Sensing for Respiratory & Allergic Health
+        icon: fa-solid fa-heart-pulse
+        keywords:
+          - IMU-based gesture recognition for allergic rhinitis
+          - heart rate, SpO₂, and respiratory rate monitoring
+          - causal modeling of physiological and environmental signals
+
       - name: Deep Generative Modeling
         icon: fa-solid fa-wave-square
         keywords:
