@@ -6,10 +6,10 @@ nav_order: 6
 dropdown: true
 sitemap: false
 children:
-  # research statement hidden until finalized
-  # - title: research statement
-  #   permalink: /research-statement
-  # - title: divider
+  # full research statement (/research-statement) is kept unpublished for later
+  - title: research interests
+    permalink: /research-interests
+  - title: divider
   - title: links/contact info
     permalink: /links-contact
 ---
