@@ -91,15 +91,15 @@ cv:
           - "Thesis research was extended and published as a peer-reviewed journal article in *Expert Systems with Applications* (ESWA)."
 
     Experience:
-      - company: CTI Diophantus — EN (POLLA) PLO
+      - company: CTI Diophantus — School Textbook Forecasting & Logistics
         logo: /assets/img/cv/cti.png
         position: ML Researcher
         location: Patras, Greece
         start_date: 2026-02-01
         end_date: present
         highlights:
-          - Research contract developing ML/DL systems to optimize Greece's nationwide school textbook distribution ecosystem under the new multiple-textbook policy.
-          - Predictive models for student population, textbook demand, and inventory forecasting; school clustering by textbook selection patterns; simulation of logistics and what-if supply-chain scenarios; integration of the developed tools into the Publications Directorate IT infrastructure.
+          - Research contract developing ML/DL systems to optimize Greece's nationwide school textbook distribution ecosystem.
+          - Predictive models for student population, textbook demand, and inventory forecasting; simulation of logistics and what-if supply-chain scenarios; tools built for integration into the Publications Directorate IT infrastructure.
           - "Supervisor: Dr. Christos Manolopoulos"
 
       - company: University General Hospital of Patras — Dept. of Internal Medicine
