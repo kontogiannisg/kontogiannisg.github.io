@@ -183,6 +183,7 @@ cv:
       - bullet: '**DCOSS-IoT 2024** — "Exploring the Impact of Synthetic Data on Human Gesture Recognition Tasks Using GANs." G. Kontogiannis, P. Tzamalis, S. Nikoletseas. *Abu Dhabi, UAE.*'
 
     Thesis Co-Supervision:
+      - bullet: "Role in each thesis: defining the research question, guiding the reading and approach, designing the methodology, and discussing experiments and results. The students carried out the implementation."
       - bullet: "**Alexandros Vallatos** — *Causal Artificial Intelligence in IoT Health Data*."
       - bullet: "**Miltiadis Mades** — *Supervised Domain Adaptation Techniques for Classifying Pathological Respiratory Sounds*."
       - bullet: "**Chrisavgi Pateli** — *Methods and Techniques for the Automatic Detection and Segmentation of the Respiratory Cycle from Lung Sound Signals*."

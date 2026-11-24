@@ -1,4 +1,5 @@
 ---
+published: false # hidden for now; revisit with the research statement
 layout: page
 title: projects
 permalink: /projects/

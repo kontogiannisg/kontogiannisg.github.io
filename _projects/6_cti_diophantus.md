@@ -1,4 +1,5 @@
 ---
+published: false # hidden for now; revisit with the research statement
 layout: page
 title: School Textbook Forecasting & Logistics
 description: Student population and textbook demand forecasting for nationwide school textbook distribution in Greece (CTI Diophantus).

@@ -1,4 +1,5 @@
 ---
+published: false # hidden for now; revisit with the research statement
 layout: page
 title: Voice-Based Diagnostics (VBD)
 description: On-device cough detection and asthma/COPD classification from smartphone-recorded cough and lung sounds (Pfizer CDI, VBD-1 and VBD-2).

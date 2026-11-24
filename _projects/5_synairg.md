@@ -1,4 +1,5 @@
 ---
+published: false # hidden for now; revisit with the research statement
 layout: page
 title: SynAir-G — Indoor Air Quality & Health
 description: Temporal and causal modeling of indoor air pollutants and wearable physiological signals in children (EU Horizon).

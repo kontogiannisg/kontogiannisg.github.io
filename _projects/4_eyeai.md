@@ -1,4 +1,5 @@
 ---
+published: false # hidden for now; revisit with the research statement
 layout: page
 title: EyeAI — Ocular Biomarker Analysis
 description: On-device sclera segmentation from smartphone eye images, for non-invasive jaundice assessment (Pfizer CDI).

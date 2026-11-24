@@ -17,6 +17,6 @@ Within medical AI, I am particularly interested in:
 
 A goal that runs through this work is respiratory sound classifiers whose performance holds across microphones, recording sites, and patient populations, not only on the dataset they were trained on.
 
-Outside medical AI, my master's thesis was on graph-based information retrieval, later extended and published in [Expert Systems with Applications](/publications/#graph-based%20extension).
+Outside medical AI, my master's thesis was on graph-based information retrieval, published in [Expert Systems with Applications](/publications/#graph-based%20extension).
 
-See my [projects](/projects/) and [publications](/publications/) for details.
+See my [publications](/publications/) for details.
